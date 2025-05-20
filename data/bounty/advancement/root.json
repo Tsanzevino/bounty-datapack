@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:filled_map"
+      },
+      "title": "Bounty Hunter",
+      "description": "This is where your Bounty Hunter career begins!",
+      "background": "minecraft:block/amethyst_block",
+      "frame": "goal"
+    },
+    "criteria": {
+      "load": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player",
+            "team": "bountyHunter"
+          }
+        }
+      }
+    }
+  }
