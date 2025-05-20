@@ -18,5 +18,8 @@
           }
         }
       }
-    }
+    },
+    "rewards": {
+		  "function": "bounty:add_player_to_scoreboard"
+	}
   }

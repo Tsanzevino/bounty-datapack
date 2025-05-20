@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_golden_apple"
+		},
+		"title": "Super Buff",
+		"description": "Eat an enchanted golden apple"
+	},
+	"parent": "bounty:root",
+	"criteria": {
+		"eat apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:enchanted_golden_apple"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bounty:add_five_bp"
+	}
+}
