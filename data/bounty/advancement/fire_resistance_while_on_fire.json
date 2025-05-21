@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:campfire"
+		},
+		"title": "Better late than never",
+		"description": "Brew a fire resistance potion while on fire"
+	},
+	"parent": "bounty:root",
+	"criteria": {
+		"potion_while_on_fire": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_on_fire": true
+					}
+				},
+				"potion": "minecraft:fire_resistance"
+			}
+		}
+	},
+	"rewards": {
+		"function": "bounty:add_five_bp"
+	}
+}

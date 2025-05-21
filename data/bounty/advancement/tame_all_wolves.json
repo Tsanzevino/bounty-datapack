@@ -1,0 +1,114 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bone"
+		},
+		"title": "The Pack",
+		"description": "Tame each wolf variation"
+	},
+	"parent": "bounty:root",
+	"criteria": {
+		"ashen": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:ashen"
+					}
+				}
+			}
+		},
+        "black": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:black"
+					}
+				}
+			}
+		},
+        "chestnut": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:chestnut"
+					}
+				}
+			}
+		},
+        "pale": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:pale"
+					}
+				}
+			}
+		},
+        "rusty": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:rusty"
+					}
+				}
+			}
+		},
+        "snowy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:snowy"
+					}
+				}
+			}
+		},
+        "spotted": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:spotted"
+					}
+				}
+			}
+		},
+        "striped": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:striped"
+					}
+				}
+			}
+		},
+        "woods": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:woods"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bounty:add_five_bp"
+	}
+}

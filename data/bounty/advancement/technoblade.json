@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:medium_amethyst_bud"
+		},
+		"title": "Technopig",
+		"description": "Name a pig Technoblade"
+	},
+	"parent": "bounty:root",
+	"criteria": {
+		"Technoblade": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:name_tag",
+					"components": {
+						"minecraft:custom_name": "Technoblade"
+					}
+				},
+				"entity": {
+					"type": "minecraft:pig"
+				}
+			}
+		},
+		"technoblade": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:name_tag",
+					"components": {
+						"minecraft:custom_name": "technoblade"
+					}
+				},
+				"entity": {
+					"type": "minecraft:pig"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"technoblade",
+            "Technoblade"
+		]
+	],
+	"rewards": {
+		"function": "bounty:add_five_bp"
+	}
+}
