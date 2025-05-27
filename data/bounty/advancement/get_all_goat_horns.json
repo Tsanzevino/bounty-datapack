@@ -117,6 +117,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bounty:add_five_bp"
+		"function": "bounty:rewards/get_all_goat_horns"
 	}
 }

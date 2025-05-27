@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bounty:add_five_bp"
+		"function": "bounty:rewards/eat_enchanted_golden_apple"
 	}
 }

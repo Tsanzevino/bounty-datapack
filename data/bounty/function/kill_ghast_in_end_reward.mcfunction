@@ -1,1 +1,0 @@
-execute unless entity @a[advancements={bounty:kill_ghast_in_end=true}] run scoreboard players add @s bp 10

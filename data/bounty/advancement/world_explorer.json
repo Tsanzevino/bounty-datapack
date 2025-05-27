@@ -1038,6 +1038,6 @@
     ]
   ],
   "rewards": {
-    "function": "bounty:add_five_bp"
+    "function": "bounty:rewards/world_explorer"
   }
 }

@@ -1,1 +1,0 @@
-execute as @a at @s if entity @e[type=ender_pearl, distance=500..] run advancement grant @s only bounty:pearl_throw_bounty

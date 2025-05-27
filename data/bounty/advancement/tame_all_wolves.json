@@ -109,6 +109,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bounty:add_five_bp"
+		"function": "bounty:rewards/tame_all_wolves"
 	}
 }
