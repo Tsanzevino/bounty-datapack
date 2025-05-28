@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+			"id": "minecraft:mace"
+		},
+        "title": "Intense Gravity",
+        "description": "Craft a Mace"
+    },
+    "parent": "bounty:root",
+    "rewards": {
+        "function": "bounty:rewards/craft_a_mace"
+    },
+    "criteria": {
+        "craft":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "mace"
+            }
+        }
+    }
+}

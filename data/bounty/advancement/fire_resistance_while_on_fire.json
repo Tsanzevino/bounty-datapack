@@ -7,6 +7,9 @@
 		"description": "Brew a fire resistance potion while on fire"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/get_all_goat_horns"
+	},
 	"criteria": {
 		"potion_while_on_fire": {
 			"trigger": "minecraft:brewed_potion",
@@ -19,8 +22,5 @@
 				"potion": "minecraft:fire_resistance"
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/get_all_goat_horns"
 	}
 }

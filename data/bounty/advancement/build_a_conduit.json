@@ -7,6 +7,9 @@
 		"description": "Build a Conduit"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/build_a_conduit"
+	},
 	"criteria": {
 		"get_conduit_power": {
 			"trigger": "minecraft:effects_changed",
@@ -22,8 +25,5 @@
 				"recipe_id": "minecraft:conduit"
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/build_a_conduit"
 	}
 }

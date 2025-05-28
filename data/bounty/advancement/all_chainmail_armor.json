@@ -7,6 +7,9 @@
 		"description": "Obtain a full set of Chainmail Armor"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/all_chainmail_armor"
+	},
 	"criteria": {
 		"helmet": {
 			"trigger": "minecraft:inventory_changed",
@@ -48,8 +51,5 @@
 				]
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/all_chainmail_armor"
 	}
 }

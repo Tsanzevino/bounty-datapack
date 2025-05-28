@@ -7,6 +7,9 @@
 		"description": "Collect a music disc"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/get_music_disc"
+	},
 	"criteria": {
 		"get_disc": {
 			"trigger": "minecraft:inventory_changed",
@@ -38,8 +41,5 @@
 				]
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/get_music_disc"
 	}
 }

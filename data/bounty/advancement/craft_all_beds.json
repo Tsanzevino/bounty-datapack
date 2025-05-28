@@ -7,6 +7,9 @@
 		"description": "Become the most well rested individual"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/craft_all_beds"
+	},
 	"criteria": {
 		"red": {
 			"trigger": "minecraft:recipe_crafted",
@@ -266,8 +269,5 @@
 			"pink",
 			"pink_dye"
 		]
-	],
-	"rewards": {
-		"function": "bounty:rewards/craft_all_beds"
-	}
+	]
 }

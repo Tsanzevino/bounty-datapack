@@ -7,6 +7,9 @@
 		"description": "Ride all mounts"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/ride_all_mounts"
+	},
 	"criteria": {
 		"horse": {
 			"trigger": "minecraft:started_riding",
@@ -98,8 +101,5 @@
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/ride_all_mounts"
 	}
 }

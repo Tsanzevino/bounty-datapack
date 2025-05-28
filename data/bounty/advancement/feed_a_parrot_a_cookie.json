@@ -6,7 +6,10 @@
 		"title": "An Undeserved Snack",
 		"description": "Feed a parrot a cookie"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:catch_a_parrot",
+	"rewards": {
+		"function": "bounty:rewards/feed_a_parrot_a_cookie"
+	},
 	"criteria": {
 		"feed parrot cookie": {
 			"trigger": "minecraft:player_interacted_with_entity",
@@ -19,8 +22,5 @@
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/feed_a_parrot_a_cookie"
 	}
 }

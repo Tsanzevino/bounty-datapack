@@ -7,6 +7,9 @@
 		"description": "Kill a Ghast in the end"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/kill_ghast_in_end"
+	},
 	"criteria": {
 		"ghast": {
 			"trigger": "minecraft:player_killed_entity",
@@ -19,8 +22,5 @@
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/kill_ghast_in_end"
 	}
 }

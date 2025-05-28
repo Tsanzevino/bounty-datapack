@@ -7,6 +7,9 @@
 		"description": "Name a pig Technoblade"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/technoblade"
+	},
 	"criteria": {
 		"Technoblade": {
 			"trigger": "minecraft:player_interacted_with_entity",
@@ -42,8 +45,5 @@
 			"technoblade",
             "Technoblade"
 		]
-	],
-	"rewards": {
-		"function": "bounty:rewards/technoblade"
-	}
+	]
 }

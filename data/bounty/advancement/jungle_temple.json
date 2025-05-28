@@ -1,25 +1,25 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:jungle_leaves"
-      },
-      "title": "The Secret of The Jungle",
-      "description": "Find a Jungle Temple"
-    },
-    "parent": "bounty:root",
-    "criteria": {
-      "in jungle temple": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "structures": "minecraft:jungle_pyramid"
-            }
-          }
-        }
-      }
-    },
-    "rewards": {
-      "function": "bounty:rewards/jungle_temple"
-    }
-  }
+	"display": {
+		"icon": {
+			"id": "minecraft:jungle_leaves"
+		},
+		"title": "The Secret of The Jungle",
+		"description": "Find a Jungle Temple"
+	},
+	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/jungle_temple"
+	},
+	"criteria": {
+		"in jungle temple": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "minecraft:jungle_pyramid"
+					}
+				}
+			}
+		}
+	}
+}

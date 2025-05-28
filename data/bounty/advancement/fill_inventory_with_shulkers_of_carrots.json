@@ -1,0 +1,675 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:carrot"
+		},
+		"title": "Introduce World Satiety",
+		"description": "Fill your inventory with shulkers full of carrots"
+	},
+	"parent": "bounty:fill_inventory_with_carrots",
+    "rewards": {
+		"function": "bounty:rewards/fill_inventory_with_shulkers_of_carrots"
+	},
+	"criteria": {
+		"full_of_carrots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"slots": {
+						"hotbar.0": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "hotbar.1": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "hotbar.2": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "hotbar.3": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "hotbar.4": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "hotbar.5": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "hotbar.6": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "hotbar.7": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "hotbar.8": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.0": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.1": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.2": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.3": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.4": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.5": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.6": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.7": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.8": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.9": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.10": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.11": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.12": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.13": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.14": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.15": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.16": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.17": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.18": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.19": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.20": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.21": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.22": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.23": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.24": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.25": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						},
+                        "inventory.26": {
+							"items": "#shulker_boxes",
+                            "predicates": {
+                                "minecraft:container": {
+							        "items": {
+								        "count": [
+									        {
+										        "test": {
+											        "items": "minecraft:carrot",
+											        "count": 64
+										        },
+										        "count": 27
+									        }
+								        ]
+							        }
+						        }
+                            }
+						}
+					}
+				},
+				"slots": {
+					"full": 36
+				}
+			}
+		}
+	}
+}

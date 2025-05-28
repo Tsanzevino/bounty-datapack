@@ -7,6 +7,9 @@
 		"description": "Eat an enchanted golden apple"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/eat_enchanted_golden_apple"
+	},
 	"criteria": {
 		"eat apple": {
 			"trigger": "minecraft:consume_item",
@@ -16,8 +19,5 @@
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/eat_enchanted_golden_apple"
 	}
 }

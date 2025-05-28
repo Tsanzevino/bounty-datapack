@@ -7,6 +7,9 @@
 		"description": "Try each suspicious stew"
 	},
 	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/drink_all_suspicious_stews"
+	},
 	"criteria": {
 		"saturation": {
 			"trigger": "minecraft:consume_item",
@@ -168,8 +171,5 @@
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/drink_all_suspicious_stews"
 	}
 }

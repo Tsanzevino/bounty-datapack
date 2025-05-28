@@ -10,6 +10,9 @@
 		"description": "Collect all goat horns"
 	},
 	"parent": "bounty:get_goat_horn",
+	"rewards": {
+		"function": "bounty:rewards/get_all_goat_horns"
+	},
 	"criteria": {
 		"ponder": {
 			"trigger": "minecraft:inventory_changed",
@@ -115,8 +118,5 @@
 				]
 			}
 		}
-	},
-	"rewards": {
-		"function": "bounty:rewards/get_all_goat_horns"
 	}
 }
