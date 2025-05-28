@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:conduit"
+		},
+		"title": "Feel the Power",
+		"description": "Build a Conduit"
+	},
+	"parent": "bounty:root",
+	"criteria": {
+		"get_conduit_power": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:conduit_power": {}
+				}
+			}
+		},
+		"craft_conduit": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:conduit"
+			}
+		}
+	},
+	"rewards": {
+		"function": "bounty:rewards/build_a_conduit"
+	}
+}
