@@ -6,7 +6,7 @@
 		"title": "Super Buff",
 		"description": "Eat an enchanted golden apple"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:fire_resistance_while_on_fire",
 	"rewards": {
 		"function": "bounty:rewards/eat_enchanted_golden_apple"
 	},

@@ -6,7 +6,7 @@
 		"title": "Feel the Power",
 		"description": "Build a Conduit"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:fire_resistance_while_on_fire",
 	"rewards": {
 		"function": "bounty:rewards/build_a_conduit"
 	},

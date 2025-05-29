@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "blaze_powder"
+		},
+		"title": "Gotta go fast",
+		"description": "Move 50m/s"
+	},
+	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/move_fast"
+	},
+	"criteria": {
+		"harvest carrot": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"movement": {
+						"horizontal_speed": {
+							"min": 50
+						}
+					}
+				}
+			}
+		}
+	}
+}

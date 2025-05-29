@@ -1,0 +1,295 @@
+{
+	"display": {
+		"icon": {
+			"id": "milk_bucket"
+		},
+		"title": "Rough Week?",
+		"description": "Be affected by every effect"
+	},
+	"parent": "bounty:eat_enchanted_golden_apple",
+	"rewards": {
+		"function": "bounty:rewards/all_effects"
+	},
+	"criteria": {
+		"absorbtion": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"absorption": {}
+				}
+			}
+		},
+        "bad omen": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"bad_omen": {}
+				}
+			}
+		},
+        "blindness": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"blindness": {}
+				}
+			}
+		},
+        "conduit power": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"conduit_power": {}
+				}
+			}
+		},
+        "darkness": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"darkness": {}
+				}
+			}
+		},
+        "dolphins grace": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"dolphins_grace": {}
+				}
+			}
+		},
+        "fire resistance": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"fire_resistance": {}
+				}
+			}
+		},
+        "glowing": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"glowing": {}
+				}
+			}
+		},
+        "haste": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"haste": {}
+				}
+			}
+		},
+        "hero of the village": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"hero_of_the_village": {}
+				}
+			}
+		},
+        "hunger": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"hunger": {}
+				}
+			}
+		},
+        "infested": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"infested": {}
+				}
+			}
+		},
+        "instant damage": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"instant_damage": {}
+				}
+			}
+		},
+        "instant health": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"instant_health": {}
+				}
+			}
+		},
+        "invisibility": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"invisibility": {}
+				}
+			}
+		},
+        "jump boost": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"jump_boost": {}
+				}
+			}
+		},
+        "levitation": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"levitation": {}
+				}
+			}
+		},
+        "nausea": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"nausea": {}
+				}
+			}
+		},
+        "night vision": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"night_vision": {}
+				}
+			}
+		},
+        "oozing": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"oozing": {}
+				}
+			}
+		},
+        "poison": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"poison": {}
+				}
+			}
+		},
+        "raid omen": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"raid_omen": {}
+				}
+			}
+		},
+        "regeneration": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"regeneration": {}
+				}
+			}
+		},
+        "resistance": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"resistance": {}
+				}
+			}
+		},
+        "saturation": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"saturation": {}
+				}
+			}
+		},
+        "slow falling": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"slow_falling": {}
+				}
+			}
+		},
+        "slowness": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"slowness": {}
+				}
+			}
+		},
+        "speed": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"speed": {}
+				}
+			}
+		},
+        "strength": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"strength": {}
+				}
+			}
+		},
+        "trial omen": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"trial_omen": {}
+				}
+			}
+		},
+        "water breathing": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"water_breathing": {}
+				}
+			}
+		},
+        "weakness": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"weakness": {}
+				}
+			}
+		},
+        "weaving": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"weaving": {}
+				}
+			}
+		},
+        "wind charged": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"wind_charged": {}
+				}
+			}
+		},
+        "wither": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"wither": {}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,141 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wolf_armor"
+		},
+		"title": "Cover those dogs",
+		"description": "Provide wolf armor to each dog variation"
+	},
+	"parent": "bounty:tame_all_wolves",
+	"rewards": {
+		"function": "bounty:rewards/armor_all_dogs"
+	},
+	"criteria": {
+		"ashen": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:ashen"
+					}
+				}
+			}
+		},
+        "black": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:black"
+					}
+				}
+			}
+		},
+        "chestnut": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:chestnut"
+					}
+				}
+			}
+		},
+        "pale": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:pale"
+					}
+				}
+			}
+		},
+        "rusty": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:rusty"
+					}
+				}
+			}
+		},
+        "snowy": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:snowy"
+					}
+				}
+			}
+		},
+        "spotted": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:spotted"
+					}
+				}
+			}
+		},
+        "striped": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:striped"
+					}
+				}
+			}
+		},
+        "woods": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:wolf_armor"
+				},
+				"entity": {
+					"type": "minecraft:wolf",
+					"components": {
+						"minecraft:wolf/variant": "minecraft:woods"
+					}
+				}
+			}
+		}
+	}
+}
