@@ -6,7 +6,7 @@
 		"title": "Lucky Catch",
 		"description": "\"Catch\" a Parrot in the Jungle"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:jungle_temple",
 	"rewards": {
 		"function": "bounty:rewards/catch_a_parrot"
 	},
