@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "emerald"
+		},
+		"title": "A Dubious Trade",
+		"description": "Trade with Jason"
+	},
+	"parent": "bounty:root",
+	"rewards": {
+		"function": "bounty:rewards/trade_with_jason"
+	},
+	"criteria": {
+		"trade with Jason": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+                "villager": {
+                    "components": {
+                        "custom_name": "Jason"
+                    }
+                },
+                "item": {
+                    "items": [
+                        "poisonous_potato"
+                    ]
+                }
+			}
+		}
+	}
+}
