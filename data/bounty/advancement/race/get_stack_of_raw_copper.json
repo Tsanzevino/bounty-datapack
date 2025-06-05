@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "raw_copper"
+        },
+        "title": "Tony Tony Copper",
+        "description": "Get a stack of Raw Copper"
+    },
+    "parent": "bounty:race/get_raw_copper",
+    "rewards": {
+        "function": "bounty:rewards/race/get_stack_of_raw_copper"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "raw_copper",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

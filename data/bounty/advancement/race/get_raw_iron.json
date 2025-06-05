@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "raw_iron"
+        },
+        "title": "The Iron Age",
+        "description": "Get one Raw Iron"
+    },
+    "parent": "bounty:race/get_raw_copper",
+    "rewards": {
+        "function": "bounty:rewards/race/get_raw_iron"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "raw_iron"
+                    }
+                ]
+            }
+        }
+    }
+}

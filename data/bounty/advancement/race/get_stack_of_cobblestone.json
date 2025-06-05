@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblestone"
+        },
+        "title": "Rock Solid",
+        "description": "Get a stack of Cobblestone"
+    },
+    "parent": "bounty:race/get_cobblestone",
+    "rewards": {
+        "function": "bounty:rewards/race/get_stack_of_cobblestone"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#stone_crafting_materials",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

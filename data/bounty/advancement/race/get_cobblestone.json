@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblestone"
+        },
+        "title": "In the Beninging...",
+        "description": "Get one Cobblestone"
+    },
+    "parent": "bounty:race/root",
+    "rewards": {
+        "function": "bounty:rewards/race/get_cobblestone"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#stone_crafting_materials"
+                    }
+                ]
+            }
+        }
+    }
+}

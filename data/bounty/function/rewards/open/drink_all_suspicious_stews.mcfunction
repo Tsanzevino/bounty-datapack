@@ -1,1 +1,1 @@
-scoreboard players add @s bp 500
+scoreboard players add @s bp 1

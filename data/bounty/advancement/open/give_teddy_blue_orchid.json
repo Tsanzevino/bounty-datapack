@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "blue_orchid"
+        },
+        "title": "A gift!",
+        "description": "Find a blue orchid \nReward: 10bp"
+    },
+    "parent": "bounty:open/root",
+    "rewards": {
+        "function": "bounty:rewards/open/get_blue_orchid"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "blue_orchid"
+                    }
+                ]
+            }
+        }
+    }
+}

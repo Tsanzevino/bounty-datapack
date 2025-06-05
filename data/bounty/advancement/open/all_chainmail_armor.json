@@ -4,52 +4,33 @@
 			"id": "minecraft:chainmail_helmet"
 		},
 		"title": "Holey Garb",
-		"description": "Obtain a full set of Chainmail Armor"
+		"description": "Wear a full set of Chainmail Armor"
 	},
 	"parent": "bounty:open/root",
 	"rewards": {
 		"function": "bounty:rewards/open/all_chainmail_armor"
 	},
 	"criteria": {
-		"helmet": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:chainmail_helmet"
-					}
-				]
-			}
-		},
-		"chestplate": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:chainmail_chestplate"
-					}
-				]
-			}
-		},
-		"leggings": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:chainmail_leggings"
-					}
-				]
-			}
-		},
-		"boots": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:chainmail_boots"
-					}
-				]
-			}
-		}
+		"full kit": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.chest": {
+                            "items": "chainmail_chestplate"
+                        },
+                        "armor.feet": {
+                            "items": "chainmail_boots"
+                        },
+                        "armor.head": {
+                            "items": "chainmail_helmet"
+                        },
+                        "armor.legs": {
+                            "items": "chainmail_leggings"
+                        }
+                    }
+                }
+            }
+        }
 	}
 }

@@ -1,1 +1,1 @@
-scoreboard players add @s bp 10
+scoreboard players add @s bp 1

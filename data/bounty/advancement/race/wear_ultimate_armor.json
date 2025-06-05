@@ -1,0 +1,36 @@
+{
+    "display": {
+		"icon": {
+			"id": "turtle_helmet"
+		},
+		"title": "The Ultimate Drip",
+		"description": "Wear the \"optimal\" armor set"
+	},
+	"parent": "bounty:race/root",
+	"rewards": {
+		"function": "bounty:rewards/race/wear_ultimate_armor"
+	},
+    "criteria": {
+        "full kit": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.chest": {
+                            "items": "elytra"
+                        },
+                        "armor.feet": {
+                            "items": "leather_boots"
+                        },
+                        "armor.head": {
+                            "items": "turtle_helmet"
+                        },
+                        "armor.legs": {
+                            "items": "golden_leggings"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

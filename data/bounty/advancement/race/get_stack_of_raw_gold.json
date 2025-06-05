@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "raw_gold"
+        },
+        "title": "Get the Carrots!",
+        "description": "Get a stack of Raw Gold"
+    },
+    "parent": "bounty:race/get_raw_gold",
+    "rewards": {
+        "function": "bounty:rewards/race/get_stack_of_raw_gold"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "raw_gold",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

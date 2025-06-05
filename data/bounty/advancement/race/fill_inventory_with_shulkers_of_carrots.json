@@ -6,9 +6,9 @@
 		"title": "Introduce World Satiety",
 		"description": "Fill your inventory with shulkers full of carrots"
 	},
-	"parent": "bounty:open/fill_inventory_with_carrots",
+	"parent": "bounty:race/fill_inventory_with_carrots",
     "rewards": {
-		"function": "bounty:rewards/open/fill_inventory_with_shulkers_of_carrots"
+		"function": "bounty:rewards/race/fill_inventory_with_shulkers_of_carrots"
 	},
 	"criteria": {
 		"full_of_carrots": {
