@@ -6,9 +6,9 @@
 		"title": "Good Boy!",
 		"description": "Feed Candy, The Axolotl"
 	},
-	"parent": "bounty:technoblade",
+	"parent": "bounty:race/technoblade",
 	"rewards": {
-		"function": "bounty:rewards/feed_candy"
+		"function": "bounty:rewards/race/feed_candy"
 	},
 	"criteria": {
 		"feed candy": {

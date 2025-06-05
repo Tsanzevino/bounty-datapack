@@ -6,9 +6,9 @@
 		"title": "Rough Week?",
 		"description": "Be affected by every effect"
 	},
-	"parent": "bounty:eat_enchanted_golden_apple",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/all_effects"
+		"function": "bounty:rewards/open/all_effects"
 	},
 	"criteria": {
 		"absorbtion": {

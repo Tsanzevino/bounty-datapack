@@ -6,9 +6,9 @@
 		"title": "A Sad End",
 		"description": "Kill a Ghast in the end"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:race/root",
 	"rewards": {
-		"function": "bounty:rewards/kill_ghast_in_end"
+		"function": "bounty:rewards/race/kill_ghast_in_end"
 	},
 	"criteria": {
 		"ghast": {

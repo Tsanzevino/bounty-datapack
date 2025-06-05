@@ -1,0 +1,18 @@
+{
+    "display": {
+        "description": "Kill another player",
+        "icon": {
+            "id": "diamond_sword"
+        },
+        "title": "Slayer"
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/kill_a_player"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}

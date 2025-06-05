@@ -6,9 +6,9 @@
 		"title": "Mattress Salesperson",
 		"description": "Become the most well rested individual"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/craft_all_beds"
+		"function": "bounty:rewards/open/craft_all_beds"
 	},
 	"criteria": {
 		"red": {

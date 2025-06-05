@@ -6,9 +6,9 @@
 		"title": "Technopig",
 		"description": "Name a pig Technoblade"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:race/root",
 	"rewards": {
-		"function": "bounty:rewards/technoblade"
+		"function": "bounty:rewards/race/technoblade"
 	},
 	"criteria": {
 		"Technoblade": {

@@ -6,9 +6,9 @@
 		"title": "How'd you do that??",
 		"description": "Kill the warden"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:race/root",
 	"rewards": {
-		"function": "bounty:rewards/kill_the_warden"
+		"function": "bounty:rewards/race/kill_the_warden"
 	},
 	"criteria": {
 		"kill": {

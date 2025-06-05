@@ -6,9 +6,9 @@
 		"title": "Speaker of the Trees",
 		"description": "Collect all saplings"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/collect_all_saplings"
+		"function": "bounty:rewards/open/collect_all_saplings"
 	},
 	"criteria": {
 		"oak": {

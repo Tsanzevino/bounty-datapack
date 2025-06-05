@@ -6,9 +6,9 @@
 		"title": "Better late than never",
 		"description": "Brew a fire resistance potion while on fire"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:race/root",
 	"rewards": {
-		"function": "bounty:rewards/get_all_goat_horns"
+		"function": "bounty:rewards/race/fire_resistance_while_on_fire"
 	},
 	"criteria": {
 		"potion_while_on_fire": {

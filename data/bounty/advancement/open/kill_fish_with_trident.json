@@ -6,9 +6,9 @@
 		"title": "Spear Fishing",
 		"description": "Kill a fish with a trident"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/kill_fish_with_trident"
+		"function": "bounty:rewards/open/kill_fish_with_trident"
 	},
 	"criteria": {
 		"kill_fish_with_trident": {

@@ -6,9 +6,9 @@
 		"title": "An Undeserved Snack",
 		"description": "Feed a parrot a cookie"
 	},
-	"parent": "bounty:catch_a_parrot",
+	"parent": "bounty:open/catch_a_parrot",
 	"rewards": {
-		"function": "bounty:rewards/feed_a_parrot_a_cookie"
+		"function": "bounty:rewards/open/feed_a_parrot_a_cookie"
 	},
 	"criteria": {
 		"feed parrot cookie": {

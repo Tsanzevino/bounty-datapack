@@ -6,9 +6,9 @@
 		"title": "Gotta go fast",
 		"description": "Move 50m/s"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/move_fast"
+		"function": "bounty:rewards/open/move_fast"
 	},
 	"criteria": {
 		"harvest carrot": {

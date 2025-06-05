@@ -6,9 +6,9 @@
 		"title": "DJ",
 		"description": "Collect all music discs"
 	},
-	"parent": "bounty:get_music_disc",
+	"parent": "bounty:open/get_music_disc",
 	"rewards": {
-		"function": "bounty:rewards/get_all_music_discs"
+		"function": "bounty:rewards/open/get_all_music_discs"
 	},
 	"criteria": {
 		"5": {

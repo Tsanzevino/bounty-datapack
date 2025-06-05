@@ -6,9 +6,9 @@
 		"title": "Holey Garb",
 		"description": "Obtain a full set of Chainmail Armor"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/all_chainmail_armor"
+		"function": "bounty:rewards/open/all_chainmail_armor"
 	},
 	"criteria": {
 		"helmet": {

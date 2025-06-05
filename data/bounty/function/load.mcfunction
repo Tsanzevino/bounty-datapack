@@ -5,7 +5,9 @@
 scoreboard objectives remove bp
 scoreboard objectives remove deaths
 scoreboard objectives remove raceCompletions
-advancement revoke @a from bounty:root
+advancement revoke @a from bounty:open/root
+advancement revoke @a from bounty:deadline/root
+advancement revoke @a from bounty:race/root
 
 # Setting up the Bounty Point scoreboard
 scoreboard objectives add bp dummy "Bounty Points"

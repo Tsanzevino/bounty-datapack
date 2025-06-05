@@ -6,9 +6,9 @@
 		"title": "The Pack",
 		"description": "Tame each wolf variation"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/tame_all_wolves"
+		"function": "bounty:rewards/open/tame_all_wolves"
 	},
 	"criteria": {
 		"ashen": {

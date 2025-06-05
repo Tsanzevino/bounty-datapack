@@ -6,9 +6,9 @@
 		"title": "Skilled Rider",
 		"description": "Ride all mounts"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/ride_all_mounts"
+		"function": "bounty:rewards/open/ride_all_mounts"
 	},
 	"criteria": {
 		"horse": {

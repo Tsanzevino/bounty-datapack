@@ -6,9 +6,9 @@
 		"title": "A Dubious Trade",
 		"description": "Trade with Jason"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:race/root",
 	"rewards": {
-		"function": "bounty:rewards/trade_with_jason"
+		"function": "bounty:rewards/race/trade_with_jason"
 	},
 	"criteria": {
 		"trade with Jason": {

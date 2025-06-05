@@ -6,9 +6,9 @@
         "title": "Intense Gravity",
         "description": "Craft a Mace"
     },
-    "parent": "bounty:root",
+    "parent": "bounty:open/root",
     "rewards": {
-        "function": "bounty:rewards/craft_a_mace"
+        "function": "bounty:rewards/open/craft_a_mace"
     },
     "criteria": {
         "craft":{

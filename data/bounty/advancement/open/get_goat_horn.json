@@ -6,9 +6,9 @@
 		"title": "Mountain Tunes",
 		"description": "Collect a goat horn"
 	},
-	"parent": "bounty:get_music_disc",
+	"parent": "bounty:open/get_music_disc",
 	"rewards": {
-		"function": "bounty:rewards/get_goat_horn"
+		"function": "bounty:rewards/open/get_goat_horn"
 	},
 	"criteria": {
 		"get horn": {

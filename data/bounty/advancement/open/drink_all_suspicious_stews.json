@@ -6,9 +6,9 @@
 		"title": "Acquired Taste",
 		"description": "Try each suspicious stew"
 	},
-	"parent": "bounty:fire_resistance_while_on_fire",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/drink_all_suspicious_stews"
+		"function": "bounty:rewards/open/drink_all_suspicious_stews"
 	},
 	"criteria": {
 		"saturation": {

@@ -6,9 +6,9 @@
 		},
 		"title": "World Explorer"
 	},
-	"parent": "bounty:jungle_temple",
+	"parent": "bounty:race/root",
     "rewards": {
-		"function": "bounty:rewards/world_explorer"
+		"function": "bounty:rewards/race/world_explorer"
 	},
 	"criteria": {
 		"minecraft:badlands": {

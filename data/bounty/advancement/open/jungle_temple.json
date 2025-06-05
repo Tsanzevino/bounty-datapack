@@ -6,9 +6,9 @@
 		"title": "The Secret of The Jungle",
 		"description": "Find a Jungle Temple"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/jungle_temple"
+		"function": "bounty:rewards/open/jungle_temple"
 	},
 	"criteria": {
 		"in jungle temple": {

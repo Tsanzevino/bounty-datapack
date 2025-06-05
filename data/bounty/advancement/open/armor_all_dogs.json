@@ -6,9 +6,9 @@
 		"title": "Cover those dogs",
 		"description": "Provide wolf armor to each dog variation"
 	},
-	"parent": "bounty:tame_all_wolves",
+	"parent": "bounty:open/tame_all_wolves",
 	"rewards": {
-		"function": "bounty:rewards/armor_all_dogs"
+		"function": "bounty:rewards/open/armor_all_dogs"
 	},
 	"criteria": {
 		"ashen": {

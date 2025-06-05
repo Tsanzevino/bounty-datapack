@@ -1,15 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:map"
+			"id": "minecraft:filled_map"
 		},
-		"title": "Open Bounties",
-		"description": "This is where your Bounty Hunter career begins!",
+		"title": "Deadline Bounties",
+		"description": "These bounties will be judged",
 		"background": "minecraft:block/amethyst_block",
 		"frame": "goal"
-	},
-	"rewards": {
-		"function": "bounty:add_player_to_scoreboard"
 	},
 	"criteria": {
 		"load": {

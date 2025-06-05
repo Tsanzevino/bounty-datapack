@@ -6,9 +6,9 @@
 		"title": "Bundleception",
 		"description": "Put a bundle in a bundle in a bundle in a bundle in a..."
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/bundleception"
+		"function": "bounty:rewards/open/bundleception"
 	},
 	"criteria": {
 		"bundleception": {

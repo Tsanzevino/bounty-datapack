@@ -6,9 +6,9 @@
 		"title": "Solve World Hunger",
 		"description": "Fill your inventory with carrots"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/fill_inventory_with_carrots"
+		"function": "bounty:rewards/open/fill_inventory_with_carrots"
 	},
 	"criteria": {
 		"full_of_carrots": {

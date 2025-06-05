@@ -6,9 +6,9 @@
 		"title": "Musician",
 		"description": "Collect a music disc"
 	},
-	"parent": "bounty:root",
+	"parent": "bounty:open/root",
 	"rewards": {
-		"function": "bounty:rewards/get_music_disc"
+		"function": "bounty:rewards/open/get_music_disc"
 	},
 	"criteria": {
 		"get_disc": {
