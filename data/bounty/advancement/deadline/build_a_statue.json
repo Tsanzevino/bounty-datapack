@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "For Posterity",
+        "description": "Build a Statue",
+        "icon": {
+            "id": "mossy_stone_bricks"
+        }
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/build_a_statue"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}

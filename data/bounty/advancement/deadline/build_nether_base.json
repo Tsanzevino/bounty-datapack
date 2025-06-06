@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Hotter Abode",
+        "description": "Build your own nether base",
+        "icon": {
+            "id": "respawn_anchor"
+        }
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/build_nether_base"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}

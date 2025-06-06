@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Hovering Abode",
+        "description": "Build your own sky base",
+        "icon": {
+            "id": "glass"
+        }
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/build_skybase"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}

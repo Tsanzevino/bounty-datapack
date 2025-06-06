@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "The World's Wildlife",
+        "description": "Build the most impressive Zoo",
+        "icon": {
+            "id": "lilac"
+        }
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/coolest_redstone_contraption"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}

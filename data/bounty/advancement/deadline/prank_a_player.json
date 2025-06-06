@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "The Joker",
+        "description": "Prank another player",
+        "icon": {
+            "id": "cake"
+        }
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/prank_a_player"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}

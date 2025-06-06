@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+			"id": "bread"
+		},
+        "title": "Well Fed",
+        "description": "Eat every foodstuff"
+    },
+    "parent": "bounty:open/root",
+    "rewards": {
+        "function": "bounty:rewards/open/eat_all_foods"
+    },
+    "criteria": {
+        "bread":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "bread"
+                }
+            }
+        },
+        "apple":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "apple"
+                }
+            }
+        }
+
+    }
+}

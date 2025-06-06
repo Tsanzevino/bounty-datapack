@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "A Sweet Monopoly",
+        "description": "Have the most sugar cane",
+        "icon": {
+            "id": "sugar_cane"
+        }
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/most_sugarcane"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}

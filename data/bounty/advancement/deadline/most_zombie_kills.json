@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Lawn Defense",
+        "description": "Kill the most Zombies",
+        "icon": {
+            "id": "rotten_flesh"
+        }
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/kill_most_zombies"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}

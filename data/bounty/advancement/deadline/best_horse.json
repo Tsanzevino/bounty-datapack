@@ -1,14 +1,14 @@
 {
     "display": {
-        "description": "Kill another player",
+        "title": "Off to the Races",
+        "description": "Breed the best horse",
         "icon": {
-            "id": "diamond_sword"
-        },
-        "title": "Slayer"
+            "id": "saddle"
+        }
     },
     "parent": "bounty:deadline/root",
     "rewards": {
-        "function": "bounty:rewards/deadline/kill_a_player"
+        "function": "bounty:rewards/deadline/best_horse"
     },
     "criteria": {
         "impossible": {

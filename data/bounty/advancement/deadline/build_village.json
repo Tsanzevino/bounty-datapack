@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "No longer friendless",
+        "description": "Build the nicest village\nMust have at least 5 villagers",
+        "icon": {
+            "id": "emerald_block"
+        }
+    },
+    "parent": "bounty:deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/deadline/build_village"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    }
+}
