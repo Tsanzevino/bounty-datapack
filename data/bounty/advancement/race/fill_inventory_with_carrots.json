@@ -15,6 +15,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": {
+					"team": "bountyHunter",
 					"slots": {
 						"hotbar.0": {
 							"items": "minecraft:carrot",

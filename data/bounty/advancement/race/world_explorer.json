@@ -20,7 +20,8 @@
 						"predicate": {
 							"location": {
 								"biomes": "minecraft:badlands"
-							}
+							},
+							"team": "bountyHunter"
 						}
 					}
 				]

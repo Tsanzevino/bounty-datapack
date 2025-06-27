@@ -15,6 +15,7 @@
 			"trigger": "minecraft:started_riding",
 			"conditions": {
 				"player": {
+					"team": "bountyHunter",
 					"vehicle": {
 						"type": "minecraft:horse"
 					}

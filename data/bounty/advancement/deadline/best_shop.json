@@ -1,14 +1,14 @@
 {
     "display": {
-        "title": "Furnace-fueled Fun",
-        "description": "Build the coolest roller coaster\nMust run by furnace",
+        "title": "Tax the poor!",
+        "description": "Create the most profitable shop",
         "icon": {
-            "id": "furnace_minecart"
+            "id": "paper"
         }
     },
     "parent": "bounty:deadline/root",
     "rewards": {
-        "function": "bounty:rewards/deadline/best_roller_coaster"
+        "function": "bounty:rewards/deadline/best_shop"
     },
     "criteria": {
         "impossible": {

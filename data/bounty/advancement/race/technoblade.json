@@ -14,6 +14,9 @@
 		"Technoblade": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
 				"item": {
 					"items": "minecraft:name_tag",
 					"components": {
@@ -28,6 +31,9 @@
 		"technoblade": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
 				"item": {
 					"items": "minecraft:name_tag",
 					"components": {

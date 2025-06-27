@@ -15,6 +15,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
+					"team": "bountyHunter",
 					"location": {
 						"structures": "minecraft:jungle_pyramid"
 					}

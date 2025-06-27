@@ -14,6 +14,9 @@
         "diamond":{
             "trigger": "inventory_changed",
             "conditions": {
+                "player": {
+					"team": "bountyHunter"
+				},
                 "items": [
                     {
                         "items": "#stone_crafting_materials"

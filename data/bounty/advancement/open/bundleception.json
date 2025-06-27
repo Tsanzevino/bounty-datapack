@@ -14,6 +14,9 @@
 		"bundleception": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
 				"items": [
 					{
 						"items": "#minecraft:bundles",

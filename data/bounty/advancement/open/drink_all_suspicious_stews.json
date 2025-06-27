@@ -14,6 +14,9 @@
 		"saturation": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
 				"item": {
 					"items": "minecraft:suspicious_stew",
 					"components": {

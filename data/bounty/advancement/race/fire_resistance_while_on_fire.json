@@ -15,6 +15,7 @@
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
 				"player": {
+					"team": "bountyHunter",
 					"flags": {
 						"is_on_fire": true
 					}

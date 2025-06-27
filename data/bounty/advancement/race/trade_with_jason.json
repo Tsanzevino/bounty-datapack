@@ -14,6 +14,9 @@
 		"trade with Jason": {
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
                 "villager": {
                     "components": {
                         "custom_name": "Jason"

@@ -13,7 +13,6 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"type": "minecraft:player",
 					"team": "bountyHunter"
 				}
 			}

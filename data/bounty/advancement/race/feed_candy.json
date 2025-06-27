@@ -14,6 +14,9 @@
 		"feed candy": {
             "trigger": "player_interacted_with_entity",
             "conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
                 "item": {
                     "items": "#axolotl_food"
                 },

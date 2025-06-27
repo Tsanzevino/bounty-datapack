@@ -12,7 +12,12 @@
     },
     "criteria": {
         "impossible": {
-            "trigger": "impossible"
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunter"
+				}
+            }
         }
     }
 }

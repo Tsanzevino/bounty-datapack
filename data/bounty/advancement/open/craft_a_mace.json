@@ -14,6 +14,9 @@
         "craft":{
             "trigger": "recipe_crafted",
             "conditions": {
+                "player": {
+					"team": "bountyHunter"
+				},
                 "recipe_id": "mace"
             }
         }

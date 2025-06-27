@@ -15,6 +15,7 @@
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"player": {
+					"team": "bountyHunter",
 					"location": {
 						"biomes": [
 							"minecraft:bamboo_jungle",

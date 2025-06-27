@@ -15,6 +15,7 @@
             "trigger": "inventory_changed",
             "conditions": {
                 "player": {
+                    "team": "bountyHunter",
                     "slots": {
                         "armor.chest": {
                             "items": "elytra"

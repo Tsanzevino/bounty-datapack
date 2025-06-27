@@ -15,6 +15,7 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
+					"team": "bountyHunter",
 					"movement": {
 						"horizontal_speed": {
 							"min": 50

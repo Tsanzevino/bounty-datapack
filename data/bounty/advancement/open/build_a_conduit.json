@@ -14,6 +14,9 @@
 		"get_conduit_power": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
 				"effects": {
 					"minecraft:conduit_power": {}
 				}
