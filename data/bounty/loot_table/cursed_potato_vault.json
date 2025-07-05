@@ -1,0 +1,74 @@
+{
+	"type": "minecraft:vault",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+                                "custom_name": {
+                                    "text": "Cursed Potato",
+                                    "color": "#790000"
+                                },
+                                "lore": ["Eats villagers eventually"],
+                                "custom_data": {
+                                    "is_cursed": true
+                                },
+                                "consumable": {
+                                    "consume_seconds": 5,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "teleport_randomly",
+                                            "diameter": 100
+                                        },
+                                        {
+                                            "type": "apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "instant_damage",
+                                                    "amplifier": 1,
+                                                    "duration": 1
+                                                },
+                                                {
+                                                    "id": "hunger",
+                                                    "amplifier": 10,
+                                                    "duration": 2000
+                                                },
+                                                {
+                                                    "id": "wither",
+                                                    "amplifier": 10,
+                                                    "duration": 2000
+                                                },
+                                                {
+                                                    "id": "blindness",
+                                                    "amplifier": 1,
+                                                    "duration": 2000
+                                                },
+                                                {
+                                                    "id": "nausea",
+                                                    "amplifier": 1,
+                                                    "duration": 2000
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "food": {
+                                    "nutrition":0,
+                                    "saturation":0,
+                                    "can_always_eat":true
+                                }
+                            }
+						}
+					]
+				}
+			]
+		}
+	]
+}

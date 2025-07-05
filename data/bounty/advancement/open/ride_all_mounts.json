@@ -11,6 +11,16 @@
 		"function": "bounty:rewards/open/ride_all_mounts"
 	},
 	"criteria": {
+		"ghast": {
+			"trigger": "started_riding",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"type": "minecraft:happy_ghast"
+					}
+				}
+			}
+		},
 		"horse": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {

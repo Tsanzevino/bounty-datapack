@@ -24,8 +24,13 @@
                 },
                 "item": {
                     "items": [
-                        "poisonous_potato"
-                    ]
+                        "flint"
+                    ],
+					"components": {
+						"custom_data": {
+							"from_jason": true
+						}
+					}
                 }
 			}
 		}

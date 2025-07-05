@@ -1,0 +1,37 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "cooked_porkchop",
+        "honey_bottle"
+    ],
+    "result": {
+        "id": "cooked_porkchop",
+        "components": {
+            "food": {
+                "nutrition": 15,
+                "saturation": 20
+            },
+            "custom_name": {
+                "text": "Honey Ham",
+                "italic": false
+            },
+            "consumable": {
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:remove_effects",
+                        "effects": [
+                            "poison",
+                            "blindness",
+                            "hunger",
+                            "wither",
+                            "weakness",
+                            "slowness",
+                            "nausea"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
