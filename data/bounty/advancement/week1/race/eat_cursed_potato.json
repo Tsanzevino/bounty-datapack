@@ -4,7 +4,7 @@
 			"id": "minecraft:poisonous_potato"
 		},
 		"title": "A Noble Sacrifice",
-		"description": "Give yourself for the village"
+		"description": "Give yourself for the village\nHighest Reward: 100bp"
 	},
 	"parent": "bounty:week1/race/root",
 	"rewards": {

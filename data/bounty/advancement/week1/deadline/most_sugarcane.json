@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "A Sweet Monopoly",
-        "description": "Have the most sugar cane",
+        "description": "Have the most sugar cane\nHighest Reward: 250bp",
         "icon": {
             "id": "sugar_cane"
         }

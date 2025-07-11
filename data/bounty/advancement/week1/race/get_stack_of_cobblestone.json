@@ -4,7 +4,7 @@
             "id": "cobblestone"
         },
         "title": "Rock Solid",
-        "description": "Get a stack of Cobblestone"
+        "description": "Get a stack of Cobblestone\nHighest Reward: 25bp"
     },
     "parent": "bounty:week1/race/get_cobblestone",
     "rewards": {

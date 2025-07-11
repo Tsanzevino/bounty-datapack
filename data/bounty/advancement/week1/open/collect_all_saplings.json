@@ -4,7 +4,7 @@
 			"id": "minecraft:oak_sapling"
 		},
 		"title": "Speaker of the Trees",
-		"description": "Collect all saplings"
+		"description": "Collect all saplings\nReward: 200bp"
 	},
 	"parent": "bounty:week1/open/root",
 	"rewards": {

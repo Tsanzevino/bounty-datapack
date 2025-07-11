@@ -4,7 +4,7 @@
             "id": "cobblestone"
         },
         "title": "In the Beninging...",
-        "description": "Get one Cobblestone"
+        "description": "Get one Cobblestone\nHighest Reward: 10bp"
     },
     "parent": "bounty:week1/race/root",
     "rewards": {

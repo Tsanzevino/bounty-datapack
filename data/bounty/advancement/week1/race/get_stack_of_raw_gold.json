@@ -4,7 +4,7 @@
             "id": "raw_gold"
         },
         "title": "Get the Carrots!",
-        "description": "Get a stack of Raw Gold"
+        "description": "Get a stack of Raw Gold\nHighest Reward: 200bp"
     },
     "parent": "bounty:week1/race/get_raw_gold",
     "rewards": {

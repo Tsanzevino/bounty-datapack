@@ -4,7 +4,7 @@
             "id": "coal"
         },
         "title": "Commence Global Warming",
-        "description": "Get a stack of coal"
+        "description": "Get a stack of coal\nHighest Reward: 50bp"
     },
     "parent": "bounty:week1/race/get_coal",
     "rewards": {

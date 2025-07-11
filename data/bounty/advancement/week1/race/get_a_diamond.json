@@ -4,7 +4,7 @@
             "id": "diamond"
         },
         "title": "Ooh, shiny!",
-        "description": "Get a diamond"
+        "description": "Get a diamond\nHighest Reward: 75bp"
     },
     "parent": "bounty:week1/race/get_raw_gold",
     "rewards": {

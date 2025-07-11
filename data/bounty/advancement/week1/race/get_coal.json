@@ -4,7 +4,7 @@
             "id": "coal"
         },
         "title": "Yay Fossil Fuels!",
-        "description": "Get a piece of coal"
+        "description": "Get a piece of coal\nHighest Reward: 10bp"
     },
     "parent": "bounty:week1/race/get_cobblestone",
     "rewards": {

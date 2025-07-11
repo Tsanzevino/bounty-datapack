@@ -4,7 +4,7 @@
 			"id": "minecraft:cooked_porkchop"
 		},
 		"title": "Honey Ham",
-		"description": "Eat a Honey Ham"
+		"description": "Eat a Honey Ham\nReward: 25bp"
 	},
 	"parent": "bounty:week1/open/root",
 	"rewards": {

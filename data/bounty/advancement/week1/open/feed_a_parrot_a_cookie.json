@@ -4,7 +4,7 @@
 			"id": "minecraft:cookie"
 		},
 		"title": "An Undeserved Snack",
-		"description": "Feed a parrot a cookie"
+		"description": "Feed a parrot a cookie\nReward: 75bp"
 	},
 	"parent": "bounty:week1/open/catch_a_parrot",
 	"rewards": {

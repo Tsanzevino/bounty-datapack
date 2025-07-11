@@ -4,7 +4,7 @@
 			"id": "minecraft:medium_amethyst_bud"
 		},
 		"title": "Technopig",
-		"description": "Name a pig Technoblade"
+		"description": "Name a pig Technoblade\nHighest Reward: 50bp"
 	},
 	"parent": "bounty:week1/race/root",
 	"rewards": {

@@ -4,7 +4,7 @@
             "id": "raw_iron"
         },
         "title": "Ironclad",
-        "description": "Get a stack of Raw Iron"
+        "description": "Get a stack of Raw Iron\nHighest Reward: 100bp"
     },
     "parent": "bounty:week1/race/get_raw_iron",
     "rewards": {

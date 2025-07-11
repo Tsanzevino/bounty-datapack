@@ -4,7 +4,7 @@
 			"id": "minecraft:carrot"
 		},
 		"title": "Solve World Hunger",
-		"description": "Fill your inventory with carrots"
+		"description": "Fill your inventory with carrots\nHighest Reward: 500bp"
 	},
 	"parent": "bounty:week1/race/root",
 	"rewards": {

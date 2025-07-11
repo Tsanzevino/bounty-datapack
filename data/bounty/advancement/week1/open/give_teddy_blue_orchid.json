@@ -4,7 +4,7 @@
             "id": "blue_orchid"
         },
         "title": "A gift!",
-        "description": "Find a blue orchid \nReward: 10bp"
+        "description": "Give a Blue Orchid to another player\nReward: 100bp"
     },
     "parent": "bounty:week1/open/root",
     "rewards": {
@@ -22,8 +22,7 @@
                     "items": "blue_orchid"
                 },
                 "entity": {
-                    "type": "player",
-                    "nbt": "{is_teddy:true}"
+                    "type": "player"
                 }
             }
         }

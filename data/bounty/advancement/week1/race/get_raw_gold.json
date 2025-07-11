@@ -4,7 +4,7 @@
             "id": "raw_gold"
         },
         "title": "That looks edible...",
-        "description": "Get one Raw Gold"
+        "description": "Get one Raw Gold\nHighest Reward: 50bp"
     },
     "parent": "bounty:week1/race/get_raw_iron",
     "rewards": {

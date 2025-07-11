@@ -4,7 +4,7 @@
 			"id": "minecraft:fishing_rod"
 		},
 		"title": "Lucky Catch",
-		"description": "\"Catch\" a Parrot in the Jungle"
+		"description": "\"Catch\" a Parrot in the Jungle\nReward: 75bp"
 	},
 	"parent": "bounty:week1/open/root",
 	"rewards": {

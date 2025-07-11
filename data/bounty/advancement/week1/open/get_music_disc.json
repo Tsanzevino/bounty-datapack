@@ -4,7 +4,7 @@
 			"id": "minecraft:music_disc_cat"
 		},
 		"title": "Musician",
-		"description": "Collect a music disc"
+		"description": "Collect a music disc\nReward: 75bp"
 	},
 	"parent": "bounty:week1/open/root",
 	"rewards": {

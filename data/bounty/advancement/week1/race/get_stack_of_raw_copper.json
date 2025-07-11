@@ -4,7 +4,7 @@
             "id": "raw_copper"
         },
         "title": "Tony Tony Copper",
-        "description": "Get a stack of Raw Copper"
+        "description": "Get a stack of Raw Copper\nHighest Reward: 50bp"
     },
     "parent": "bounty:week1/race/get_raw_copper",
     "rewards": {

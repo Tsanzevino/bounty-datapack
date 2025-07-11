@@ -4,7 +4,7 @@
             "id": "raw_copper"
         },
         "title": "The Copper Age",
-        "description": "Get one Raw Copper"
+        "description": "Get one Raw Copper\nHighest Reward: 10bp"
     },
     "parent": "bounty:week1/race/get_coal",
     "rewards": {

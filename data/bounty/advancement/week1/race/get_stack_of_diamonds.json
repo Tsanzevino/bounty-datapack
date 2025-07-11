@@ -4,7 +4,7 @@
             "id": "diamond"
         },
         "title": "Ooooooh, shiny!",
-        "description": "Get a stack of diamonds"
+        "description": "Get a stack of diamonds\nHighest Reward: 500bp"
     },
     "parent": "bounty:week1/race/get_a_diamond",
     "rewards": {

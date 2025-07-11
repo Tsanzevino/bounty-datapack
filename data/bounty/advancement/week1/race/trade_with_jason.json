@@ -4,7 +4,7 @@
 			"id": "emerald"
 		},
 		"title": "A Dubious Trade",
-		"description": "Trade with Jason"
+		"description": "Complete All Trades with Jason\nHighest Reward: 500bp"
 	},
 	"parent": "bounty:week1/race/root",
 	"rewards": {
