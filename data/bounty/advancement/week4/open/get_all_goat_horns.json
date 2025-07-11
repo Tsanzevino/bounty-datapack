@@ -9,16 +9,16 @@
 		"title": "Mountain Musician",
 		"description": "Collect all goat horns"
 	},
-	"parent": "bounty:open/get_goat_horn",
+	"parent": "bounty:week4/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/get_all_goat_horns"
+		"function": "bounty:rewards/week4/get_all_goat_horns"
 	},
 	"criteria": {
 		"ponder": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW4"
 				},
 				"items": [
 					{

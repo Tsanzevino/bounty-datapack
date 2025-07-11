@@ -6,16 +6,16 @@
 		"title": "The Pack",
 		"description": "Tame each wolf variation"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week2/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/tame_all_wolves"
+		"function": "bounty:rewards/week2/tame_all_wolves"
 	},
 	"criteria": {
 		"ashen": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW2"
 				},
 				"entity": {
 					"type": "minecraft:wolf",

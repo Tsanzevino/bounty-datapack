@@ -8,7 +8,7 @@
 	},
 	"parent": "bounty:week3/race/root",
 	"rewards": {
-		"function": "bounty:rewards/race/build_beacon"
+		"function": "bounty:rewards/week3/build_beacon"
 	},
 	"criteria": {
         "build a beacon": {

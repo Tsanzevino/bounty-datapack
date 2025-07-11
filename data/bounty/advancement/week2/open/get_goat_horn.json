@@ -6,16 +6,16 @@
 		"title": "Mountain Tunes",
 		"description": "Collect a goat horn"
 	},
-	"parent": "bounty:open/get_music_disc",
+	"parent": "bounty:week2/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/get_goat_horn"
+		"function": "bounty:rewards/week2/get_goat_horn"
 	},
 	"criteria": {
 		"get horn": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW2"
 				},
 				"items": [
 					{

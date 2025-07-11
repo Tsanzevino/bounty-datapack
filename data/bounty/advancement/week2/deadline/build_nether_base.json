@@ -6,16 +6,16 @@
             "id": "respawn_anchor"
         }
     },
-    "parent": "bounty:deadline/root",
+    "parent": "bounty:week2/deadline/root",
     "rewards": {
-        "function": "bounty:rewards/deadline/build_nether_base"
+        "function": "bounty:rewards/week2/build_nether_base"
     },
     "criteria": {
         "impossible": {
             "trigger": "impossible",
             "conditions": {
                 "player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW2"
 				}
             }
         }

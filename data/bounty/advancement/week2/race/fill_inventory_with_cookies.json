@@ -6,16 +6,16 @@
 		"title": "Type 5 Diabetes",
 		"description": "Fill your inventory with cookies"
 	},
-	"parent": "bounty:race/fill_inventory_with_carrots",
+	"parent": "bounty:week2/race/root",
 	"rewards": {
-		"function": "bounty:rewards/race/fill_inventory_with_cookies"
+		"function": "bounty:rewards/week2/fill_inventory_with_cookies"
 	},
 	"criteria": {
 		"full_of_carrots": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter",
+					"team": "bountyHunterW2",
 					"slots": {
 						"hotbar.0": {
 							"items": "cookie",

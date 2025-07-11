@@ -6,16 +6,16 @@
 		"title": "Acquired Taste",
 		"description": "Try each suspicious stew"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week2/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/drink_all_suspicious_stews"
+		"function": "bounty:rewards/week2/drink_all_suspicious_stews"
 	},
 	"criteria": {
 		"saturation": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW2"
 				},
 				"item": {
 					"items": "minecraft:suspicious_stew",

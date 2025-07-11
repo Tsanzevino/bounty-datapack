@@ -6,9 +6,9 @@
 		"title": "Skilled Rider",
 		"description": "Ride all mounts"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week4/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/ride_all_mounts"
+		"function": "bounty:rewards/week4/ride_all_mounts"
 	},
 	"criteria": {
 		"ghast": {
@@ -25,7 +25,7 @@
 			"trigger": "minecraft:started_riding",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter",
+					"team": "bountyHunterW4",
 					"vehicle": {
 						"type": "minecraft:horse"
 					}

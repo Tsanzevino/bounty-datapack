@@ -6,16 +6,16 @@
 		"title": "Gotta go fast",
 		"description": "Move 50m/s"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week3/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/move_fast"
+		"function": "bounty:rewards/week3/move_fast"
 	},
 	"criteria": {
 		"harvest carrot": {
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter",
+					"team": "bountyHunterW3",
 					"movement": {
 						"horizontal_speed": {
 							"min": 50

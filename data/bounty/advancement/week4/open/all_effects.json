@@ -6,16 +6,16 @@
 		"title": "Rough Week?",
 		"description": "Be affected by every effect"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week4/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/all_effects"
+		"function": "bounty:rewards/week4/all_effects"
 	},
 	"criteria": {
 		"absorbtion": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW4"
 				},
 				"effects": {
 					"absorption": {}

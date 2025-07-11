@@ -6,16 +6,16 @@
             "id": "emerald_block"
         }
     },
-    "parent": "bounty:deadline/root",
+    "parent": "bounty:week3/deadline/root",
     "rewards": {
-        "function": "bounty:rewards/deadline/build_village"
+        "function": "bounty:rewards/week3/build_village"
     },
     "criteria": {
         "impossible": {
             "trigger": "impossible",
             "conditions": {
                 "player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW3"
 				}
             }
         }

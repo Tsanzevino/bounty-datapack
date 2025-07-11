@@ -6,16 +6,16 @@
 		"title": "Feel the Power",
 		"description": "Build a Conduit"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week3/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/build_a_conduit"
+		"function": "bounty:rewards/week3/build_a_conduit"
 	},
 	"criteria": {
 		"get_conduit_power": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW3"
 				},
 				"effects": {
 					"minecraft:conduit_power": {}

@@ -6,16 +6,16 @@
 		"title": "DJ",
 		"description": "Collect all music discs"
 	},
-	"parent": "bounty:open/get_music_disc",
+	"parent": "bounty:week4/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/get_all_music_discs"
+		"function": "bounty:rewards/week4/get_all_music_discs"
 	},
 	"criteria": {
 		"5": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW4"
 				},
 				"items": [
 					{

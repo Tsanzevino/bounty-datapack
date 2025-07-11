@@ -6,16 +6,16 @@
 		"title": "Spear Fishing",
 		"description": "Kill a fish with a trident"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week3/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/kill_fish_with_trident"
+		"function": "bounty:rewards/week3/kill_fish_with_trident"
 	},
 	"criteria": {
 		"kill_fish_with_trident": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW3"
 				},
 				"entity": {
 					"type": "#minecraft:aquatic"

@@ -6,16 +6,16 @@
 		"title": "Quid Pro Quo",
 		"description": "Give a piglin full armor and receive the hidden item"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week2/race/root",
 	"rewards": {
-		"function": "bounty:rewards/race/barter_with_full_armored_piglin"
+		"function": "bounty:rewards/week2/barter_with_full_armored_piglin"
 	},
 	"criteria": {
 		"recieve secret item": {
 			"trigger": "inventory_changed",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW2"
 				},
                 "items": [
                     {

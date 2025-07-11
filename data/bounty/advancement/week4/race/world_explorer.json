@@ -6,9 +6,9 @@
 		},
 		"title": "World Explorer"
 	},
-	"parent": "bounty:race/root",
+	"parent": "bounty:week4/race/root",
     "rewards": {
-		"function": "bounty:rewards/race/world_explorer"
+		"function": "bounty:rewards/week4/world_explorer"
 	},
 	"criteria": {
 		"minecraft:badlands": {
@@ -21,7 +21,7 @@
 							"location": {
 								"biomes": "minecraft:badlands"
 							},
-							"team": "bountyHunter"
+							"team": "bountyHunterW4"
 						}
 					}
 				]

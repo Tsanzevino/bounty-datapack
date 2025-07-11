@@ -6,16 +6,16 @@
         "title": "Intense Gravity",
         "description": "Craft a Mace"
     },
-    "parent": "bounty:open/root",
+    "parent": "bounty:week3/open/root",
     "rewards": {
-        "function": "bounty:rewards/open/craft_a_mace"
+        "function": "bounty:rewards/week3/craft_a_mace"
     },
     "criteria": {
         "craft":{
             "trigger": "recipe_crafted",
             "conditions": {
                 "player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW3"
 				},
                 "recipe_id": "mace"
             }

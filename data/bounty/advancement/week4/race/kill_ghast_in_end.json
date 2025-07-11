@@ -6,16 +6,16 @@
 		"title": "A Sad End",
 		"description": "Kill a Ghast in the end"
 	},
-	"parent": "bounty:race/root",
+	"parent": "bounty:week4/race/root",
 	"rewards": {
-		"function": "bounty:rewards/race/kill_ghast_in_end"
+		"function": "bounty:rewards/week4/kill_ghast_in_end"
 	},
 	"criteria": {
 		"ghast": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW4"
 				},
 				"entity": {
 					"type": "minecraft:ghast",

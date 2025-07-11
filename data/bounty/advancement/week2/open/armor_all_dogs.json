@@ -6,16 +6,16 @@
 		"title": "Cover those dogs",
 		"description": "Provide wolf armor to each dog variation"
 	},
-	"parent": "bounty:open/tame_all_wolves",
+	"parent": "bounty:week2/open/tame_all_wolves",
 	"rewards": {
-		"function": "bounty:rewards/open/armor_all_dogs"
+		"function": "bounty:rewards/week2/armor_all_dogs"
 	},
 	"criteria": {
 		"ashen": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW2"
 				},
 				"item": {
 					"items": "minecraft:wolf_armor"

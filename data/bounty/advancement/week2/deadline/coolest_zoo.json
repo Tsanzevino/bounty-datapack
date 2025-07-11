@@ -6,16 +6,16 @@
             "id": "lilac"
         }
     },
-    "parent": "bounty:deadline/root",
+    "parent": "bounty:week2/deadline/root",
     "rewards": {
-        "function": "bounty:rewards/deadline/coolest_redstone_contraption"
+        "function": "bounty:rewards/week2/coolest_zoo"
     },
     "criteria": {
         "impossible": {
             "trigger": "impossible",
             "conditions": {
                 "player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW2"
 				}
             }
         }

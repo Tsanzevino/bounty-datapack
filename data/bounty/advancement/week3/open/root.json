@@ -1,12 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:feather"
+			"id": "minecraft:map"
 		},
-		"title": "Race Bounties",
-		"description": "Be the first to finish these for more points!",
+		"title": "Open Bounties",
+		"description": "This is where your Bounty Hunter career begins!",
 		"background": "minecraft:block/amethyst_block",
 		"frame": "goal"
+	},
+	"rewards": {
+		"function": "bounty:add_player_to_scoreboard"
 	},
 	"criteria": {
 		"load": {

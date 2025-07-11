@@ -1,10 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:feather"
+			"id": "minecraft:filled_map"
 		},
-		"title": "Race Bounties",
-		"description": "Be the first to finish these for more points!",
+		"title": "Deadline Bounties",
+		"description": "These bounties will be judged",
 		"background": "minecraft:block/amethyst_block",
 		"frame": "goal"
 	},
@@ -13,7 +13,7 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"team": "bountyHunterW3"
+					"team": "bountyHunterW2"
 				}
 			}
 		}

@@ -6,16 +6,16 @@
 		"title": "The Ultimate Drip",
 		"description": "Wear the \"optimal\" armor set"
 	},
-	"parent": "bounty:race/root",
+	"parent": "bounty:week4/race/root",
 	"rewards": {
-		"function": "bounty:rewards/race/wear_ultimate_armor"
+		"function": "bounty:rewards/week4/wear_ultimate_armor"
 	},
     "criteria": {
         "full kit": {
             "trigger": "inventory_changed",
             "conditions": {
                 "player": {
-                    "team": "bountyHunter",
+                    "team": "bountyHunterW4",
                     "slots": {
                         "armor.chest": {
                             "items": "elytra"

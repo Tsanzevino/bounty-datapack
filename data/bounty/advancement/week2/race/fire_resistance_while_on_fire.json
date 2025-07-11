@@ -6,16 +6,16 @@
 		"title": "Better late than never",
 		"description": "Brew a fire resistance potion while on fire"
 	},
-	"parent": "bounty:race/root",
+	"parent": "bounty:week2/race/root",
 	"rewards": {
-		"function": "bounty:rewards/race/fire_resistance_while_on_fire"
+		"function": "bounty:rewards/week2/fire_resistance_while_on_fire"
 	},
 	"criteria": {
 		"potion_while_on_fire": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter",
+					"team": "bountyHunterW2",
 					"flags": {
 						"is_on_fire": true
 					}

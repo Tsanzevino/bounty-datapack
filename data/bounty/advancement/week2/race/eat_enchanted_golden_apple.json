@@ -6,16 +6,16 @@
 		"title": "Super Buff",
 		"description": "Eat an enchanted golden apple"
 	},
-	"parent": "bounty:race/fire_resistance_while_on_fire",
+	"parent": "bounty:week2/race/fire_resistance_while_on_fire",
 	"rewards": {
-		"function": "bounty:rewards/race/eat_enchanted_golden_apple"
+		"function": "bounty:rewards/week2/eat_enchanted_golden_apple"
 	},
 	"criteria": {
 		"eat apple": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
                 "player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW2"
 				},
 				"item": {
 					"items": "minecraft:enchanted_golden_apple"

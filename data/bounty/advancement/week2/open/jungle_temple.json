@@ -6,16 +6,16 @@
 		"title": "The Secret of The Jungle",
 		"description": "Find a Jungle Temple"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week2/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/jungle_temple"
+		"function": "bounty:rewards/week2/jungle_temple"
 	},
 	"criteria": {
 		"in jungle temple": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"team": "bountyHunter",
+					"team": "bountyHunterW2",
 					"location": {
 						"structures": "minecraft:jungle_pyramid"
 					}

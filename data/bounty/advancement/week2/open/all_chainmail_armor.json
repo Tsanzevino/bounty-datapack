@@ -6,16 +6,16 @@
 		"title": "Holey Garb",
 		"description": "Wear a full set of Chainmail Armor"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week2/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/all_chainmail_armor"
+		"function": "bounty:rewards/week2/all_chainmail_armor"
 	},
 	"criteria": {
 		"full kit": {
             "trigger": "inventory_changed",
             "conditions": {
                 "player": {
-                    "team": "bountyHunter",
+                    "team": "bountyHunterW2",
                     "slots": {
                         "armor.chest": {
                             "items": "chainmail_chestplate"

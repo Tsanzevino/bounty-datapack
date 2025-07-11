@@ -6,15 +6,15 @@
 		"title": "Well Fed",
 		"description": "Eat every foodstuff"
 	},
-	"parent": "bounty:open/root",
+	"parent": "bounty:week3/open/root",
 	"rewards": {
-		"function": "bounty:rewards/open/eat_all_foods"
+		"function": "bounty:rewards/week3/eat_all_foods"
 	},
 	"criteria": {
 		"apple": {
 			"conditions": {
 				"player": {
-					"team": "bountyHunter"
+					"team": "bountyHunterW3"
 				},
 				"item": {
 					"items": "minecraft:apple"
