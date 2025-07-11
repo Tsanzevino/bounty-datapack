@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "coal"
+        },
+        "title": "Commence Global Warming",
+        "description": "Get a stack of coal"
+    },
+    "parent": "bounty:week1/race/get_coal",
+    "rewards": {
+        "function": "bounty:rewards/week1/get_stack_of_coal"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				},
+                "items": [
+                    {
+                        "items": "coal",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

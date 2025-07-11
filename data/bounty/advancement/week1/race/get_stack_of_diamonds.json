@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "diamond"
+        },
+        "title": "Ooooooh, shiny!",
+        "description": "Get a stack of diamonds"
+    },
+    "parent": "bounty:week1/race/get_a_diamond",
+    "rewards": {
+        "function": "bounty:rewards/week1/get_stack_of_diamond"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				},
+                "items": [
+                    {
+                        "items": "diamond",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

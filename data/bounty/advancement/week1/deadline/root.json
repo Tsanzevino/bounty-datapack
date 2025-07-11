@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:filled_map"
+		},
+		"title": "Deadline Bounties",
+		"description": "These bounties will be judged",
+		"background": "minecraft:block/amethyst_block",
+		"frame": "goal"
+	},
+	"criteria": {
+		"load": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW1"
+				}
+			}
+		}
+	}
+}

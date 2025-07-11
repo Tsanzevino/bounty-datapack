@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "coal"
+        },
+        "title": "Yay Fossil Fuels!",
+        "description": "Get a piece of coal"
+    },
+    "parent": "bounty:week1/race/get_cobblestone",
+    "rewards": {
+        "function": "bounty:rewards/week1/get_coal"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				},
+                "items": [
+                    {
+                        "items": "coal"
+                    }
+                ]
+            }
+        }
+    }
+}

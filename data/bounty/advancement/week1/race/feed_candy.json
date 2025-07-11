@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "tropical_fish_bucket"
+		},
+		"title": "Good Boy!",
+		"description": "Feed Candy, The Axolotl"
+	},
+	"parent": "bounty:week1/race/technoblade",
+	"rewards": {
+		"function": "bounty:rewards/week1/feed_candy"
+	},
+	"criteria": {
+		"feed candy": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+				"player": {
+					"team": "bountyHunterW1"
+				},
+                "item": {
+                    "items": "#axolotl_food"
+                },
+                "entity": {
+                    "components": {
+                        "custom_name": "Candy",
+                        "axolotl/variant": "lucy"
+                    }
+                }
+            }
+        }
+	}
+}

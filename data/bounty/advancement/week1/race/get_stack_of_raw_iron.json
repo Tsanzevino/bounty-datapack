@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "raw_iron"
+        },
+        "title": "Ironclad",
+        "description": "Get a stack of Raw Iron"
+    },
+    "parent": "bounty:week1/race/get_raw_iron",
+    "rewards": {
+        "function": "bounty:rewards/week1/get_stack_of_raw_iron"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				},
+                "items": [
+                    {
+                        "items": "raw_iron",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

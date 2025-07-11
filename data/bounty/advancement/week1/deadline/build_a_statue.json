@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "For Posterity",
+        "description": "Build a Statue",
+        "icon": {
+            "id": "mossy_stone_bricks"
+        }
+    },
+    "parent": "bounty:week1/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week1/build_a_statue"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				}
+            }
+        }
+    }
+}

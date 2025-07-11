@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "diamond"
+        },
+        "title": "Ooh, shiny!",
+        "description": "Get a diamond"
+    },
+    "parent": "bounty:week1/race/get_raw_gold",
+    "rewards": {
+        "function": "bounty:rewards/week1/get_a_diamond"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				},
+                "items": [
+                    {
+                        "items": "diamond"
+                    }
+                ]
+            }
+        }
+    }
+}

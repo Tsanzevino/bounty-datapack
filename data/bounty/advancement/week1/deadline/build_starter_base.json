@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Humble Abode",
+        "description": "Build your own starter base",
+        "icon": {
+            "id": "red_bed"
+        }
+    },
+    "parent": "bounty:week1/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week1/build_starter_base"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				}
+            }
+        }
+    }
+}

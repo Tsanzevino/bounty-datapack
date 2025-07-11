@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:snowball"
+		},
+		"title": "A Cool End",
+		"description": "Kill a Blaze with a Snowball"
+	},
+	"parent": "bounty:open/root",
+	"rewards": {
+		"function": "bounty:rewards/open/kill_blaze_with_snowball"
+	},
+	"criteria": {
+		"in jungle temple": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
+                "entity": {
+                    "type": "blaze"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "snowball"
+                    }
+                }
+			}
+		}
+	}
+}

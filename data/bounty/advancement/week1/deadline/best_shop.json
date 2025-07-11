@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Tax the poor!",
+        "description": "Create the most profitable shop",
+        "icon": {
+            "id": "paper"
+        }
+    },
+    "parent": "bounty:week1/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week1/best_shop"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				}
+            }
+        }
+    }
+}

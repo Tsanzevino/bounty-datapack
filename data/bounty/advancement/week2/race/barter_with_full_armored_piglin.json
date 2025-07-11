@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:golden_helmet"
+		},
+		"title": "Quid Pro Quo",
+		"description": "Give a piglin full armor and receive the hidden item"
+	},
+	"parent": "bounty:open/root",
+	"rewards": {
+		"function": "bounty:rewards/race/barter_with_full_armored_piglin"
+	},
+	"criteria": {
+		"recieve secret item": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"team": "bountyHunter"
+				},
+                "items": [
+                    {
+                        "items": [
+                            "netherite_ingot"
+                        ]
+                    }
+                ]
+			}
+		}
+	}
+}

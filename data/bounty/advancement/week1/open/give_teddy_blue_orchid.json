@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "id": "blue_orchid"
+        },
+        "title": "A gift!",
+        "description": "Find a blue orchid \nReward: 10bp"
+    },
+    "parent": "bounty:week1/open/root",
+    "rewards": {
+        "function": "bounty:rewards/week1/get_blue_orchid"
+    },
+    "criteria": {
+        "give teddy blue orchid":{
+            "trigger": "thrown_item_picked_up_by_entity",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				},
+                "item":
+                {
+                    "items": "blue_orchid"
+                },
+                "entity": {
+                    "type": "player",
+                    "nbt": "{is_teddy:true}"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fishing_rod"
+		},
+		"title": "Lucky Catch",
+		"description": "\"Catch\" a Parrot in the Jungle"
+	},
+	"parent": "bounty:week1/open/root",
+	"rewards": {
+		"function": "bounty:rewards/week1/catch_a_parrot"
+	},
+	"criteria": {
+		"catch parrot in jungle": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW1"
+				},
+				"entity": {
+					"type": "minecraft:parrot"
+				}
+			}
+		}
+	}
+}

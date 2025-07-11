@@ -1,1 +1,0 @@
-give ZeldaFanta potion[minecraft:potion_contents={potion:"wind_charged"}]

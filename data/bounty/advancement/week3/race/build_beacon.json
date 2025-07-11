@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:beacon"
+		},
+		"title": "TRUE POWER",
+		"description": "Build a fully charged beacon"
+	},
+	"parent": "bounty:week3/race/root",
+	"rewards": {
+		"function": "bounty:rewards/race/build_beacon"
+	},
+	"criteria": {
+        "build a beacon": {
+            "trigger": "construct_beacon",
+            "conditions": {
+                "level": {
+                    "min": 4
+                }
+            }
+        }
+	}
+}

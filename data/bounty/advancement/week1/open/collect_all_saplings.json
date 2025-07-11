@@ -1,0 +1,108 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oak_sapling"
+		},
+		"title": "Speaker of the Trees",
+		"description": "Collect all saplings"
+	},
+	"parent": "bounty:week1/open/root",
+	"rewards": {
+		"function": "bounty:rewards/week1/collect_all_saplings"
+	},
+	"criteria": {
+		"oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW1"
+				},
+				"items": [
+					{
+						"items": "minecraft:oak_sapling"
+					}
+				]
+			}
+		},
+		"spruce": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:spruce_sapling"
+					}
+				]
+			}
+		},
+		"dark oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:dark_oak_sapling"
+					}
+				]
+			}
+		},
+		"acacia": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:acacia_sapling"
+					}
+				]
+			}
+		},
+		"pale oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:pale_oak_sapling"
+					}
+				]
+			}
+		},
+		"cherry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:cherry_sapling"
+					}
+				]
+			}
+		},
+		"birch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:birch_sapling"
+					}
+				]
+			}
+		},
+		"jungle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:jungle_sapling"
+					}
+				]
+			}
+		},
+		"mangrove": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:mangrove_propagule"
+					}
+				]
+			}
+		}
+	}
+}

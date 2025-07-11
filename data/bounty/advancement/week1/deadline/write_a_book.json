@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "N.A.R. Pearson",
+        "description": "Write a book",
+        "icon": {
+            "id": "written_book"
+        }
+    },
+    "parent": "bounty:week1/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week1/write_a_book"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				}
+            }
+        }
+    }
+}

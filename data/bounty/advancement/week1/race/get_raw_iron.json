@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "raw_iron"
+        },
+        "title": "The Iron Age",
+        "description": "Get one Raw Iron"
+    },
+    "parent": "bounty:week1/race/get_raw_copper",
+    "rewards": {
+        "function": "bounty:rewards/week1/get_raw_iron"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW1"
+				},
+                "items": [
+                    {
+                        "items": "raw_iron"
+                    }
+                ]
+            }
+        }
+    }
+}

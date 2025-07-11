@@ -6,18 +6,18 @@ scoreboard objectives remove bp
 scoreboard objectives remove deaths
 scoreboard objectives remove raceCompletions
 scoreboard objectives remove deadlinePlacement
-advancement revoke @a from bounty:open/root
-advancement revoke @a from bounty:deadline/root
-advancement revoke @a from bounty:race/root
+advancement revoke @a everything
 
 # Setting up the Bounty Point scoreboard
 scoreboard objectives add bp dummy "Bounty Points"
 scoreboard objectives setdisplay sidebar bp
 # Setting up death tally
-
 scoreboard objectives add deaths deathCount "Deaths"
 # Adding a team for bounty hunters
-team add bountyHunter "Bounty Hunter"
+team add bountyHunterW1 "Bounty Hunter"
+team add bountyHunterW2 "Bounty Hunter"
+team add bountyHunterW3 "Bounty Hunter"
+team add bountyHunterW4 "Bounty Hunter"
 # Adding a scoreboard for fake players to track the amount of
 # players that have completed races.
 scoreboard objectives add raceCompletions dummy "Race Completion Counts"

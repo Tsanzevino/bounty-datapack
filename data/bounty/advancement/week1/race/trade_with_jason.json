@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"id": "emerald"
+		},
+		"title": "A Dubious Trade",
+		"description": "Trade with Jason"
+	},
+	"parent": "bounty:week1/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week1/trade_with_jason"
+	},
+	"criteria": {
+		"trade with Jason": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW1"
+				},
+                "villager": {
+                    "components": {
+                        "custom_name": "Jason"
+                    }
+                },
+                "item": {
+                    "items": [
+                        "flint"
+                    ],
+					"components": {
+						"custom_data": {
+							"from_jason": true
+						}
+					}
+                }
+			}
+		}
+	}
+}

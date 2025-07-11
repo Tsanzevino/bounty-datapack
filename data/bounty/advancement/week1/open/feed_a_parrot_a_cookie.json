@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cookie"
+		},
+		"title": "An Undeserved Snack",
+		"description": "Feed a parrot a cookie"
+	},
+	"parent": "bounty:week1/open/catch_a_parrot",
+	"rewards": {
+		"function": "bounty:rewards/week1/feed_a_parrot_a_cookie"
+	},
+	"criteria": {
+		"feed parrot cookie": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW1"
+				},
+				"item": {
+					"items": "minecraft:cookie"
+				},
+				"entity": {
+					"type": "minecraft:parrot"
+				}
+			}
+		}
+	}
+}
