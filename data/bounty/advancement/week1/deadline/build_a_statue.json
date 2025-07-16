@@ -6,7 +6,7 @@
             "id": "mossy_stone_bricks"
         }
     },
-    "parent": "bounty:week1/deadline/root",
+    "parent": "bounty:week1/deadline/connect_base_to_spawn",
     "rewards": {
         "function": "bounty:rewards/week1/build_a_statue"
     },

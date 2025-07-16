@@ -6,7 +6,7 @@
 		"title": "Speaker of the Trees",
 		"description": "Collect all saplings\nReward: 200bp"
 	},
-	"parent": "bounty:week1/open/root",
+	"parent": "bounty:week1/open/get_music_disc",
 	"rewards": {
 		"function": "bounty:rewards/week1/collect_all_saplings"
 	},

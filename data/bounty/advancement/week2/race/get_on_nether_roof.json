@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bedrock"
+		},
+		"title": "The Overworld?",
+		"description": "Set your spawn above the nether roof"
+	},
+	"parent": "bounty:week2/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week2/get_on_nether_roof"
+	},
+	"criteria": {
+		"get above bedrock": {
+            
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+                "player": {
+					"team": "bountyHunterW2",
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "y": {
+                                "min": 127
+                            }
+                        }
+                    }
+				},
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:respawn_anchor"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:glowstone"
+						}
+					}
+				]
+			}
+		}
+	}
+}
