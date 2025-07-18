@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+			"id": "minecraft:goat_horn"
+		},
+        "title": "MARCO..!",
+        "description": "Use a goat horn in an Ancient City"
+    },
+    "parent": "bounty:week3/open/root",
+    "rewards": {
+        "function": "bounty:rewards/week3/use_goat_horn_in_ancient_city"
+    },
+    "criteria": {
+        "Polo!":{
+            "trigger": "using_item",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW3",
+                    "location": {
+                        "structures": "ancient_city"
+                    }
+				},
+                "item": {
+                    "items": "goat_horn"
+                }
+            }
+        }
+    }
+}

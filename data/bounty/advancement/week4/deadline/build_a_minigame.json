@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Next it's your turn!",
+        "description": "Build your own minigame!",
+        "icon": {
+            "id": "ominous_trial_key"
+        }
+    },
+    "parent": "bounty:week4/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week4/build_a_minigame"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW4"
+				}
+            }
+        }
+    }
+}
