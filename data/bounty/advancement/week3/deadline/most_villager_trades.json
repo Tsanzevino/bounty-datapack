@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "A Business Connoisseur",
+        "description": "Trade the most with villagers",
+        "icon": {
+            "id": "emerald_block"
+        }
+    },
+    "parent": "bounty:week3/deadline/build_village",
+    "rewards": {
+        "function": "bounty:rewards/week3/build_village"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW3"
+				}
+            }
+        }
+    }
+}

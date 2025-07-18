@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:prismarine_shard"
+		},
+		"title": "Was that so hard?",
+		"description": "Shoot a guardian with an arrow"
+	},
+	"parent": "bounty:week3/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week3/shoot_a_guardian"
+	},
+	"criteria": {
+        "Shoot a guardian": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "team": "bountyHunterW3"
+                },
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "#arrows"
+                        }
+                    }
+                },
+                "entity": {
+                    "type": [
+                        "guardian",
+                        "elder_guardian"
+                    ]
+                }
+            }
+        }
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:experience_bottle"
+		},
+		"title": "I can FINALLY enchant my armor!",
+		"description": "Get to level 60"
+	},
+	"parent": "bounty:week3/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week3/get_to_level_sixty"
+	},
+	"criteria": {
+		"get level thirty": {
+			"trigger": "tick",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW3",
+					"type_specific": {
+						"type": "player",
+						"level": {
+							"min": 60
+						}
+					}
+				}
+			}
+		}
+	}
+}

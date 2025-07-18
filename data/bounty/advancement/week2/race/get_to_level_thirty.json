@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:experience_bottle"
+		},
+		"title": "Enchantment Ready",
+		"description": "Get to level 30"
+	},
+	"parent": "bounty:week2/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week2/get_to_level_thirty"
+	},
+	"criteria": {
+		"get level thirty": {
+			"trigger": "tick",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW2",
+					"type_specific": {
+						"type": "player",
+						"level": {
+							"min": 30
+						}
+					}
+				}
+			}
+		}
+	}
+}

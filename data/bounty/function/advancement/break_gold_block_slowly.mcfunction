@@ -1,0 +1,2 @@
+scoreboard players reset @s goldBlockMined
+execute at @s if block ~ ~ ~ water if predicate bounty:advancement/break_gold_block_slowly run advancement grant @s only bounty:week3/race/break_gold_block_slowly

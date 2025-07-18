@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gold_block"
+		},
+		"title": "I do have all day",
+		"description": "Break a gold block in an Ocean Monument with mining fatigue under water."
+	},
+	"parent": "bounty:week3/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week3/break_gold_block_slowly"
+	},
+	"criteria": {
+		"": {
+            "trigger": "impossible"
+        }
+	}
+}

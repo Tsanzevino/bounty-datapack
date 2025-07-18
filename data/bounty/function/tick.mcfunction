@@ -1,0 +1,1 @@
+execute as @a[team=bountyHunterW3,scores={goldBlockMined=1..}] run function bounty:advancement/break_gold_block_slowly

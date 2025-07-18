@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:sculk_shrieker"
+		},
+		"title": "Quit that Racket!",
+		"description": "Obtain a sculk shrieker"
+	},
+	"parent": "bounty:week3/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week3/obtain_sculk_shrieker"
+	},
+	"criteria": {
+		"Obtain shrieker": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW3"
+				},
+				"items": [
+					{
+						"items": "sculk_shrieker"
+					}
+				]
+			}
+		}
+	}
+}

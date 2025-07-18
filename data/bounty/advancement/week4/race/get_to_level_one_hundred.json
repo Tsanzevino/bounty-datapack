@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:experience_bottle"
+		},
+		"title": "Please don't kill me",
+		"description": "Get to level 100"
+	},
+	"parent": "bounty:week4/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week4/get_to_level_one_hundred"
+	},
+	"criteria": {
+		"get level thirty": {
+			"trigger": "tick",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW4",
+					"type_specific": {
+						"type": "player",
+						"level": {
+							"min": 100
+						}
+					}
+				}
+			}
+		}
+	}
+}

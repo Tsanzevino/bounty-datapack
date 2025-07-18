@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+			"id": "minecraft:recovery_compass"
+		},
+        "title": "Deja Vu Detector",
+        "description": "Craft a Recovery Compass"
+    },
+    "parent": "bounty:week3/open/root",
+    "rewards": {
+        "function": "bounty:rewards/week3/craft_a_recovery_compass"
+    },
+    "criteria": {
+        "craft":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW3"
+				},
+                "recipe_id": "recovery_compass"
+            }
+        }
+    }
+}
