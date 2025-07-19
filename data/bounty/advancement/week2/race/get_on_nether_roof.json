@@ -12,7 +12,6 @@
 	},
 	"criteria": {
 		"get above bedrock": {
-            
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
                 "player": {

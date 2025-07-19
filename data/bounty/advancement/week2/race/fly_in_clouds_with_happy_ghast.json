@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "wind_charge"
+		},
+		"title": "How to Train your Ghastling",
+		"description": "Fly through the clouds on a Happy Ghast"
+	},
+	"parent": "bounty:week2/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week2/fly_in_clouds_with_happy_ghast"
+	},
+	"criteria": {
+		"happy ghast clouds": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+                        "position": {
+                            "y": {
+                                "min": 187,
+                                "max": 196
+                            }
+                        }
+                    },
+                    "vehicle": {
+                        "type": "happy_ghast"
+                    },
+                    "team": "bountyHunterW2"
+				}
+			}
+		}
+	}
+}

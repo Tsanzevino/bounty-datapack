@@ -1,0 +1,2 @@
+execute unless predicate bounty:advancement/hunterw2_on_ghast run return 1
+return run execute at @s as @e[type=#boat,distance=..10,sort=nearest,limit=1,nbt={leash:{}}] if predicate bounty:advancement/boat_has_cow

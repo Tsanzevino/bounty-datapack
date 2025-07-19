@@ -1,0 +1,1 @@
+execute if function bounty:advancement/check_cow_abducted run advancement grant @s only bounty:week2/race/abduct_a_cow

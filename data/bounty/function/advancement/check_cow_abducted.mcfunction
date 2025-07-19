@@ -1,0 +1,1 @@
+return run execute at @s as @e[type=#boat,distance=..10,sort=nearest,limit=1,nbt={leash:{}}] if entity @s[predicate=bounty:advancement/boat_has_cow]

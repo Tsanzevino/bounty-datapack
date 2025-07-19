@@ -1,0 +1,85 @@
+{
+	"display": {
+		"icon": {
+			"id": "red_harness"
+		},
+		"title": "A Nostalgic Pilgrimage",
+		"description": "Ride a Happy Ghast in each Nether Biome"
+	},
+	"parent": "bounty:week2/open/root",
+	"rewards": {
+		"function": "bounty:rewards/week2/ride_ghast_in_each_nether_biome"
+	},
+	"criteria": {
+        "nether wastes": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "nether_wastes"
+                    },
+                    "vehicle": {
+                        "type": "happy_ghast"
+                    },
+                    "team": "bountyHunterW2"
+                }
+            }
+        },
+        "soul sand valley": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "soul_sand_valley"
+                    },
+                    "vehicle": {
+                        "type": "happy_ghast"
+                    },
+                    "team": "bountyHunterW2"
+                }
+            }
+        },
+        "crimson forest": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "crimson_forest"
+                    },
+                    "vehicle": {
+                        "type": "happy_ghast"
+                    },
+                    "team": "bountyHunterW2"
+                }
+            }
+        },
+        "warped forest": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "warped_forest"
+                    },
+                    "vehicle": {
+                        "type": "happy_ghast"
+                    },
+                    "team": "bountyHunterW2"
+                }
+            }
+        },
+        "basalt delta": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "basalt_deltas"
+                    },
+                    "vehicle": {
+                        "type": "happy_ghast"
+                    },
+                    "team": "bountyHunterW2"
+                }
+            }
+        }
+	}
+}

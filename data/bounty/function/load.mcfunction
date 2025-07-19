@@ -6,6 +6,7 @@ scoreboard objectives remove bp
 scoreboard objectives remove deaths
 scoreboard objectives remove raceCompletions
 scoreboard objectives remove deadlinePlacement
+scoreboard objectives remove flyingWithACow
 advancement revoke @a everything
 
 # Setting up the Bounty Point scoreboard
@@ -17,7 +18,7 @@ scoreboard objectives add goldBlockMined broken:gold_block "Gold Blocks Mined"
 scoreboard objectives add timeAwake custom:time_since_rest "Time Awake"
 scoreboard objectives add tradesWithVillagers custom:traded_with_villager "Trades with Villagers"
 scoreboard objectives add zombiesKilled killed:zombie "Zombies Killed"
-
+scoreboard objectives add flyingWithACow dummy "Flying with a Cow"
 # Adding a team for bounty hunters
 team add bountyHunterW1 "Bounty Hunter"
 team add bountyHunterW2 "Bounty Hunter"
