@@ -3,8 +3,8 @@
         "icon": {
             "id": "blue_orchid"
         },
-        "title": "A gift!",
-        "description": "Give a Blue Orchid to another player\nReward: 100bp"
+        "title": "A Gift!",
+        "description": "Give a Blue Orchid to another Bounty Hunter\nReward: 100bp"
     },
     "parent": "bounty:week1/open/root",
     "rewards": {

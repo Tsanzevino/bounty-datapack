@@ -4,7 +4,7 @@
 			"id": "minecraft:red_bed"
 		},
 		"title": "Mattress Salesperson",
-		"description": "Become the most well rested individual\nReward: 100bp"
+		"description": "Craft every bed variant\nReward: 100bp"
 	},
 	"parent": "bounty:week1/open/root",
 	"rewards": {

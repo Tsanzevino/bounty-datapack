@@ -3,7 +3,7 @@
         "icon": {
             "id": "diamond"
         },
-        "title": "Ooh, shiny!",
+        "title": "I'm Rich!",
         "description": "Get a diamond\nHighest Reward: 75bp"
     },
     "parent": "bounty:week1/race/get_raw_gold",
