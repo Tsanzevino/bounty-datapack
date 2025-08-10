@@ -4,7 +4,7 @@
 			"id": "minecraft:campfire"
 		},
 		"title": "Better late than never",
-		"description": "Brew a fire resistance potion while on fire"
+		"description": "Brew a fire resistance potion while on fire\nHighest Reward: 50bp"
 	},
 	"parent": "bounty:week2/race/root",
 	"rewards": {

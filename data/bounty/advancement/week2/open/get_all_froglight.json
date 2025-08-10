@@ -4,7 +4,7 @@
 			"id": "ochre_froglight"
 		},
 		"title": "Bioluminescence",
-		"description": "Get all three froglights"
+		"description": "Get all three froglights\nReward: 200bp"
 	},
 	"parent": "bounty:week2/open/root",
 	"rewards": {

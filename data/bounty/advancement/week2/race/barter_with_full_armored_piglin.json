@@ -4,7 +4,7 @@
 			"id": "minecraft:golden_helmet"
 		},
 		"title": "Quid Pro Quo",
-		"description": "Give a piglin full gold armor and barter for the hidden item"
+		"description": "Give a piglin full gold armor and barter for the hidden item\nHighest Reward: 200bp"
 	},
 	"parent": "bounty:week2/race/root",
 	"rewards": {

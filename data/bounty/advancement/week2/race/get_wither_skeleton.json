@@ -4,7 +4,7 @@
             "id": "wither_skeleton_skull"
         },
         "title": "Head Hunter",
-        "description": "Get a Wither Skeleton Skull"
+        "description": "Get a Wither Skeleton Skull\nHighest Reward: 150bp"
     },
     "parent": "bounty:week2/race/root",
     "rewards": {

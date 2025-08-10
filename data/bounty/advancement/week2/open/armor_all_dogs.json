@@ -4,7 +4,7 @@
 			"id": "minecraft:wolf_armor"
 		},
 		"title": "Cover those dogs",
-		"description": "Provide wolf armor to each dog variation"
+		"description": "Provide wolf armor to each dog variation\nReward: 50bp"
 	},
 	"parent": "bounty:week2/open/tame_all_wolves",
 	"rewards": {

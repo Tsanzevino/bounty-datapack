@@ -4,7 +4,7 @@
 			"id": "minecraft:jungle_leaves"
 		},
 		"title": "The Secret of The Jungle",
-		"description": "Find a Jungle Temple"
+		"description": "Find a Jungle Temple\nReward: 50bp"
 	},
 	"parent": "bounty:week2/open/root",
 	"rewards": {

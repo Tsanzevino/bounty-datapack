@@ -4,7 +4,7 @@
 			"id": "minecraft:dried_ghast"
 		},
         "title": "Dehydrated Flight",
-        "description": "Craft a dried ghast"
+        "description": "Craft a dried ghast\nReward: 100bp"
     },
     "parent": "bounty:week2/open/root",
     "rewards": {

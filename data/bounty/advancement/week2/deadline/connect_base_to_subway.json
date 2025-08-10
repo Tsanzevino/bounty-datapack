@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Bullet Train",
-        "description": "Connect your base to the Subway System",
+        "description": "Connect your base to the Subway System\nHighest Reward: 500bp",
         "icon": {
             "id": "powered_rail"
         }

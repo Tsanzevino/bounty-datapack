@@ -4,7 +4,7 @@
 			"id": "minecraft:chainmail_helmet"
 		},
 		"title": "Holey Garb",
-		"description": "Wear a full set of Chainmail Armor"
+		"description": "Wear a full set of Chainmail Armor\nReward: 100bp"
 	},
 	"parent": "bounty:week2/open/root",
 	"rewards": {

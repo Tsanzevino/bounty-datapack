@@ -4,7 +4,7 @@
 			"id": "minecraft:experience_bottle"
 		},
 		"title": "Enchantment Ready",
-		"description": "Get to level 30"
+		"description": "Get to level 30\nHighest Reward: 50bp"
 	},
 	"parent": "bounty:week2/race/root",
 	"rewards": {

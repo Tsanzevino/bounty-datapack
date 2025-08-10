@@ -4,9 +4,9 @@
 			"id": "red_harness"
 		},
 		"title": "A Nostalgic Pilgrimage",
-		"description": "Ride a Happy Ghast in each Nether Biome"
+		"description": "Ride a Happy Ghast in each Nether Biome\nReward: 100bp"
 	},
-	"parent": "bounty:week2/open/root",
+	"parent": "bounty:week2/open/craft_a_dried_ghast",
 	"rewards": {
 		"function": "bounty:rewards/week2/ride_ghast_in_each_nether_biome"
 	},
