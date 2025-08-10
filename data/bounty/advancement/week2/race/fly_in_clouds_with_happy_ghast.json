@@ -4,7 +4,7 @@
 			"id": "wind_charge"
 		},
 		"title": "How to Train your Ghastling",
-		"description": "Fly through the clouds on a Happy Ghast\nHighest Reward: 50bp"
+		"description": "Fly through the Clouds on a Happy Ghast\nHighest Reward: 50bp"
 	},
 	"parent": "bounty:week2/race/root",
 	"rewards": {

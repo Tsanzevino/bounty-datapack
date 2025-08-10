@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Insomniac",
-        "description": "Spend the most time awake\nHighest Reward: 250bp",
+        "description": "Spend the longest time awake\nHighest Reward: 250bp",
         "icon": {
             "id": "black_bed"
         }

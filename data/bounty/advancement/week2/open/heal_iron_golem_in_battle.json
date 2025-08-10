@@ -4,7 +4,7 @@
 			"id": "minecraft:poppy"
 		},
 		"title": "MEDIC!!!",
-		"description": "Heal an iron golem that is in battle\nReward: 50bp"
+		"description": "Heal an Iron Golem that's in Battle\nReward: 50bp"
 	},
 	"parent": "bounty:week2/open/root",
 	"rewards": {

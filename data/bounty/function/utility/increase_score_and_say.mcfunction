@@ -1,0 +1,2 @@
+$tellraw @s [{text:"You got ",color:"#379f29"}, {text:$(placement),color:"#379f29"},{text:" place!\n+ ",color:"#379f29"},{text:"$(amount)",color:"#379f29"},{text:" bp!",color:"#379f29"}]
+$scoreboard players add @s bp $(amount)

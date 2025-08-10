@@ -4,7 +4,7 @@
 			"id": "minecraft:enchanted_golden_apple"
 		},
 		"title": "Super Buff",
-		"description": "Eat an enchanted golden apple\nHighest Reward: 150bp"
+		"description": "Eat an Enchanted Golden Apple\nHighest Reward: 150bp"
 	},
 	"parent": "bounty:week2/race/fire_resistance_while_on_fire",
 	"rewards": {

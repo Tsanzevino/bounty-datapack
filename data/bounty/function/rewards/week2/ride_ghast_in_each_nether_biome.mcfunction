@@ -1,2 +1,2 @@
 # Open
-scoreboard players add @s bp 1
+scoreboard players add @s bp 100

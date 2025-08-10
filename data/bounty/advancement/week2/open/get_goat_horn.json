@@ -4,7 +4,7 @@
 			"id": "minecraft:goat_horn"
 		},
 		"title": "Mountain Tunes",
-		"description": "Collect a goat horn\nReward: 50bp"
+		"description": "Collect a Goat Horn\nReward: 50bp"
 	},
 	"parent": "bounty:week2/open/root",
 	"rewards": {
