@@ -1,0 +1,1 @@
+give @s leather_helmet[attribute_modifiers=[{slot:"head",type:"scale",amount:-0.5,operation:"add_value",id:"minecraft:"}]]

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "wither_skeleton_skull"
+        },
+        "title": "Head Hunter",
+        "description": "Get a Wither Skeleton Skull"
+    },
+    "parent": "bounty:week2/race/root",
+    "rewards": {
+        "function": "bounty:rewards/week2/get_wither_skeleton"
+    },
+    "criteria": {
+        "get skull":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				},
+                "items": [
+                    {
+                        "items": "wither_skeleton_skull"
+                    }
+                ]
+            }
+        }
+    }
+}

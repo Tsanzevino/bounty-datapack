@@ -4,7 +4,7 @@
 			"id": "minecraft:golden_helmet"
 		},
 		"title": "Quid Pro Quo",
-		"description": "Give a piglin full armor and receive the hidden item"
+		"description": "Give a piglin full gold armor and barter for the hidden item"
 	},
 	"parent": "bounty:week2/race/root",
 	"rewards": {
@@ -12,18 +12,22 @@
 	},
 	"criteria": {
 		"recieve secret item": {
-			"trigger": "inventory_changed",
+			"trigger": "thrown_item_picked_up_by_player",
 			"conditions": {
 				"player": {
 					"team": "bountyHunterW2"
 				},
-                "items": [
-                    {
-                        "items": [
-                            "netherite_ingot"
-                        ]
-                    }
-                ]
+				"entity": {
+					"type": "piglin"
+				},
+				"item": {
+					"items": "red_harness",
+					"components": {
+						"custom_data": {
+							"from_special_bartering":true
+						}
+					}
+				}
 			}
 		}
 	}

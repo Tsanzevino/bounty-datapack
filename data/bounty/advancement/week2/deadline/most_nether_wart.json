@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "A Sour Monopoly",
+        "description": "Have the most nether wart\nHighest Reward: 250bp",
+        "icon": {
+            "id": "nether_wart"
+        }
+    },
+    "parent": "bounty:week2/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week2/most_nether_wart"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				}
+            }
+        }
+    }
+}

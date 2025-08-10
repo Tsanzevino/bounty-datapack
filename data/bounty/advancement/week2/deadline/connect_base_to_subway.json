@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Bullet Train",
+        "description": "Connect your base to the Subway System",
+        "icon": {
+            "id": "powered_rail"
+        }
+    },
+    "parent": "bounty:week2/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week2/connect_base_to_subway"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				}
+            }
+        }
+    }
+}

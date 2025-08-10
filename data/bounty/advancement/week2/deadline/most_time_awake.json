@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Insomniac",
+        "description": "Spend the most time awake",
+        "icon": {
+            "id": "black_bed"
+        }
+    },
+    "parent": "bounty:week2/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week2/most_time_awake"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				}
+            }
+        }
+    }
+}

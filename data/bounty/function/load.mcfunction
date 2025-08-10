@@ -1,14 +1,4 @@
 # THESE ARE COMMENTS
-
-# Refreshing datapack
-# !!! REMOVE LINES BELOW WHEN READY TO RUN !!!
-scoreboard objectives remove bp
-scoreboard objectives remove deaths
-scoreboard objectives remove raceCompletions
-scoreboard objectives remove deadlinePlacement
-scoreboard objectives remove flyingWithACow
-advancement revoke @a everything
-
 # Setting up the Bounty Point scoreboard
 scoreboard objectives add bp dummy "Bounty Points"
 scoreboard objectives setdisplay sidebar bp
@@ -16,6 +6,7 @@ scoreboard objectives setdisplay sidebar bp
 scoreboard objectives add deaths deathCount "Deaths"
 scoreboard objectives add goldBlockMined broken:gold_block "Gold Blocks Mined"
 scoreboard objectives add timeAwake custom:time_since_rest "Time Awake"
+scoreboard objectives add maxTimeAwake dummy "Longest Time Awake"
 scoreboard objectives add tradesWithVillagers custom:traded_with_villager "Trades with Villagers"
 scoreboard objectives add zombiesKilled killed:zombie "Zombies Killed"
 scoreboard objectives add flyingWithACow dummy "Flying with a Cow"

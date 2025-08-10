@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Long Live the King",
+        "description": "Build a shrine for your technopig",
+        "icon": {
+            "id": "medium_amethyst_bud"
+        }
+    },
+    "parent": "bounty:week2/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week2/shrine_for_technoblade"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				}
+            }
+        }
+    }
+}

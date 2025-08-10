@@ -4,7 +4,7 @@
 			"id": "minecraft:cow_spawn_egg"
 		},
 		"title": "U.F.G. Abduction",
-		"description": "Abduct a cow with a boat while from a happy ghast"
+		"description": "Abduct a cow with a boat while flying a happy ghast"
 	},
 	"parent": "bounty:week2/race/root",
 	"rewards": {

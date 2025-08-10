@@ -6,7 +6,7 @@
 		"title": "A Cool End",
 		"description": "Kill a Blaze with a Snowball"
 	},
-	"parent": "bounty:week2/open/root",
+	"parent": "bounty:week2/race/root",
 	"rewards": {
 		"function": "bounty:rewards/week2/kill_blaze_with_snowball"
 	},

@@ -6,7 +6,47 @@
 			"entries": [
                 {
                     "type": "item",
-                    "name": "netherite_ingot",
+                    "name": "red_harness",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text":"Minish Harness",
+								"color":"#902020"
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": {
+								"from_special_bartering":true
+							}
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"attribute_modifiers": false
+							}
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "scale",
+									"amount": -0.5,
+									"operation": "add_multiplied_base",
+									"slot": "body",
+									"id": "minecraft:"
+								},
+								{
+									"attribute":"flying_speed",
+									"amount": 1,
+									"operation": "add_multiplied_base",
+									"slot": "body",
+									"id": "minecraft:"
+								}
+							]
+						}
+					],
                     "conditions": [
                         {
                             "condition":"entity_properties",

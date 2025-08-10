@@ -1,4 +1,6 @@
 # --- Checks for Week 2 ---
+# Most time awake
+execute as @a[team=bountyHunterW2] run scoreboard players operation @s maxTimeAwake > @s timeAwake
 # Abduct a cow
 # Checks flag and gives advancement
 execute as @a[advancements={bounty:week2/race/abduct_a_cow=false}, predicate=bounty:advancement/hunterw2_on_ghast] if score @s flyingWithACow matches 0 run function bounty:advancement/abduct_a_cow

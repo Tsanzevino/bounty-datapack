@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"id": "ochre_froglight"
+		},
+		"title": "Bioluminescence",
+		"description": "Get all three froglights"
+	},
+	"parent": "bounty:week2/open/root",
+	"rewards": {
+		"function": "bounty:rewards/week2/get_all_froglight"
+	},
+	"criteria": {
+		"frog one": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW2"
+				},
+                "items": [
+                    {
+                        "items": "ochre_froglight"
+                    }
+                ]
+            }
+		},
+        "frog two": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW2"
+				},
+                "items": [
+                    {
+                        "items": "verdant_froglight"
+                    }
+                ]
+            }
+		},
+        "frog three": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW2"
+				},
+                "items": [
+                    {
+                        "items": "pearlescent_froglight"
+                    }
+                ]
+            }
+		}
+	}
+}

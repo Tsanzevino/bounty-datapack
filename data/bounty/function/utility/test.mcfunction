@@ -1,1 +1,0 @@
-give @a flint[tooltip_display={hidden_components:["attribute_modifiers"]},custom_data={from_jason:true},custom_name={text:"Cool Rock",color:"#209020"},rarity="epic",attribute_modifiers=[{id:"minecraft:", type:"block_interaction_range",amount:3,operation:"add_value",slot:"offhand"},{id:"minecraft:", type:"entity_interaction_range",amount:3,operation:"add_value",slot:"offhand"}]]

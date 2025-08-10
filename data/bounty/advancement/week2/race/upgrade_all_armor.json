@@ -1,0 +1,51 @@
+{
+    "display": {
+        "icon": {
+            "id": "netherite_ingot"
+        },
+        "title": "Ancient Protection",
+        "description": "Upgrade an entire set of armor to nether"
+    },
+    "parent": "bounty:week2/race/root",
+    "rewards": {
+        "function": "bounty:rewards/week2/upgrade_all_armor"
+    },
+    "criteria": {
+        "helmet":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				},
+                "recipe_id": "netherite_helmet_smithing"
+            }
+        },
+        "chestplate":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				},
+                "recipe_id": "netherite_chestplate_smithing"
+            }
+        },
+        "leggings":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				},
+                "recipe_id": "netherite_leggings_smithing"
+            }
+        },
+        "boots":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW2"
+				},
+                "recipe_id": "netherite_boots_smithing"
+            }
+        }
+    }
+}
