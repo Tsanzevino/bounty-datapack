@@ -1,17 +1,17 @@
 # Race
 scoreboard players add #worldExplorer raceCompletions 1
-execute if score #worldExplorer raceCompletions matches 1 run return run scoreboard players add @s bp 20
-execute if score #worldExplorer raceCompletions matches 2 run return run scoreboard players add @s bp 16
-execute if score #worldExplorer raceCompletions matches 3 run return run scoreboard players add @s bp 14
-execute if score #worldExplorer raceCompletions matches 4 run return run scoreboard players add @s bp 12
-execute if score #worldExplorer raceCompletions matches 5 run return run scoreboard players add @s bp 11
-execute if score #worldExplorer raceCompletions matches 6 run return run scoreboard players add @s bp 10
-execute if score #worldExplorer raceCompletions matches 7 run return run scoreboard players add @s bp 9
-execute if score #worldExplorer raceCompletions matches 8 run return run scoreboard players add @s bp 8
-execute if score #worldExplorer raceCompletions matches 9 run return run scoreboard players add @s bp 7
-execute if score #worldExplorer raceCompletions matches 10 run return run scoreboard players add @s bp 6
-execute if score #worldExplorer raceCompletions matches 11 run return run scoreboard players add @s bp 5
-execute if score #worldExplorer raceCompletions matches 12 run return run scoreboard players add @s bp 4
-execute if score #worldExplorer raceCompletions matches 13 run return run scoreboard players add @s bp 3
-execute if score #worldExplorer raceCompletions matches 14 run return run scoreboard players add @s bp 2
-execute if score #worldExplorer raceCompletions matches 15 run return run scoreboard players add @s bp 1
+execute if score #worldExplorer raceCompletions matches 1 run return run function bounty:utility/increase_score_and_say {"amount":"400","placement":"First"}
+execute if score #worldExplorer raceCompletions matches 2 run return run function bounty:utility/increase_score_and_say {"amount":"320","placement":"Second"}
+execute if score #worldExplorer raceCompletions matches 3 run return run function bounty:utility/increase_score_and_say {"amount":"280","placement":"Third"}
+execute if score #worldExplorer raceCompletions matches 4 run return run function bounty:utility/increase_score_and_say {"amount":"240","placement":"Fourth"}
+execute if score #worldExplorer raceCompletions matches 5 run return run function bounty:utility/increase_score_and_say {"amount":"220","placement":"Fifth"}
+execute if score #worldExplorer raceCompletions matches 6 run return run function bounty:utility/increase_score_and_say {"amount":"200","placement":"Sixth"}
+execute if score #worldExplorer raceCompletions matches 7 run return run function bounty:utility/increase_score_and_say {"amount":"180","placement":"Seventh"}
+execute if score #worldExplorer raceCompletions matches 8 run return run function bounty:utility/increase_score_and_say {"amount":"160","placement":"Eighth"}
+execute if score #worldExplorer raceCompletions matches 9 run return run function bounty:utility/increase_score_and_say {"amount":"140","placement":"Ninth"}
+execute if score #worldExplorer raceCompletions matches 10 run return run function bounty:utility/increase_score_and_say {"amount":"120","placement":"Tenth"}
+execute if score #worldExplorer raceCompletions matches 11 run return run function bounty:utility/increase_score_and_say {"amount":"100","placement":"Eleventh"}
+execute if score #worldExplorer raceCompletions matches 12 run return run function bounty:utility/increase_score_and_say {"amount":"80","placement":"Twelfth"}
+execute if score #worldExplorer raceCompletions matches 13 run return run function bounty:utility/increase_score_and_say {"amount":"60","placement":"Thirteenth"}
+execute if score #worldExplorer raceCompletions matches 14 run return run function bounty:utility/increase_score_and_say {"amount":"40","placement":"Fourteenth"}
+execute if score #worldExplorer raceCompletions matches 15 run return run function bounty:utility/increase_score_and_say {"amount":"20","placement":"Fifteenth"}

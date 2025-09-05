@@ -4,7 +4,7 @@
 			"id": "minecraft:recovery_compass"
 		},
         "title": "Deja Vu Detector",
-        "description": "Craft a Recovery Compass"
+        "description": "Craft a Recovery Compass\nReward: 100bp"
     },
     "parent": "bounty:week3/open/root",
     "rewards": {

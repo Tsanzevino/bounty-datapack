@@ -1,2 +1,2 @@
 # Open
-scoreboard players add @s bp 1
+function bounty:utility/tell_open_bounty {"amount":200}

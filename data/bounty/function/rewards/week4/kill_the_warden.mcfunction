@@ -1,17 +1,17 @@
 # Race
-scoreboard players add #killWarden raceCompletions 1
-execute if score #killWarden raceCompletions matches 1 run return run scoreboard players add @s bp 20
-execute if score #killWarden raceCompletions matches 2 run return run scoreboard players add @s bp 16
-execute if score #killWarden raceCompletions matches 3 run return run scoreboard players add @s bp 14
-execute if score #killWarden raceCompletions matches 4 run return run scoreboard players add @s bp 12
-execute if score #killWarden raceCompletions matches 5 run return run scoreboard players add @s bp 11
-execute if score #killWarden raceCompletions matches 6 run return run scoreboard players add @s bp 10
-execute if score #killWarden raceCompletions matches 7 run return run scoreboard players add @s bp 9
-execute if score #killWarden raceCompletions matches 8 run return run scoreboard players add @s bp 8
-execute if score #killWarden raceCompletions matches 9 run return run scoreboard players add @s bp 7
-execute if score #killWarden raceCompletions matches 10 run return run scoreboard players add @s bp 6
-execute if score #killWarden raceCompletions matches 11 run return run scoreboard players add @s bp 5
-execute if score #killWarden raceCompletions matches 12 run return run scoreboard players add @s bp 4
-execute if score #killWarden raceCompletions matches 13 run return run scoreboard players add @s bp 3
-execute if score #killWarden raceCompletions matches 14 run return run scoreboard players add @s bp 2
-execute if score #killWarden raceCompletions matches 15 run return run scoreboard players add @s bp 1
+scoreboard players add #killTheWarden raceCompletions 1
+execute if score #killTheWarden raceCompletions matches 1 run return run function bounty:utility/increase_score_and_say {"amount":"300","placement":"First"}
+execute if score #killTheWarden raceCompletions matches 2 run return run function bounty:utility/increase_score_and_say {"amount":"240","placement":"Second"}
+execute if score #killTheWarden raceCompletions matches 3 run return run function bounty:utility/increase_score_and_say {"amount":"210","placement":"Third"}
+execute if score #killTheWarden raceCompletions matches 4 run return run function bounty:utility/increase_score_and_say {"amount":"180","placement":"Fourth"}
+execute if score #killTheWarden raceCompletions matches 5 run return run function bounty:utility/increase_score_and_say {"amount":"165","placement":"Fifth"}
+execute if score #killTheWarden raceCompletions matches 6 run return run function bounty:utility/increase_score_and_say {"amount":"150","placement":"Sixth"}
+execute if score #killTheWarden raceCompletions matches 7 run return run function bounty:utility/increase_score_and_say {"amount":"135","placement":"Seventh"}
+execute if score #killTheWarden raceCompletions matches 8 run return run function bounty:utility/increase_score_and_say {"amount":"120","placement":"Eighth"}
+execute if score #killTheWarden raceCompletions matches 9 run return run function bounty:utility/increase_score_and_say {"amount":"105","placement":"Ninth"}
+execute if score #killTheWarden raceCompletions matches 10 run return run function bounty:utility/increase_score_and_say {"amount":"90","placement":"Tenth"}
+execute if score #killTheWarden raceCompletions matches 11 run return run function bounty:utility/increase_score_and_say {"amount":"75","placement":"Eleventh"}
+execute if score #killTheWarden raceCompletions matches 12 run return run function bounty:utility/increase_score_and_say {"amount":"60","placement":"Twelfth"}
+execute if score #killTheWarden raceCompletions matches 13 run return run function bounty:utility/increase_score_and_say {"amount":"45","placement":"Thirteenth"}
+execute if score #killTheWarden raceCompletions matches 14 run return run function bounty:utility/increase_score_and_say {"amount":"30","placement":"Fourteenth"}
+execute if score #killTheWarden raceCompletions matches 15 run return run function bounty:utility/increase_score_and_say {"amount":"15","placement":"Fifteenth"}

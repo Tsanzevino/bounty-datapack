@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#enchantable/weapon",
+        "trident",
+        "bow",
+        "crossbow",
+        "#enchantable/mining"
+    ]
+}

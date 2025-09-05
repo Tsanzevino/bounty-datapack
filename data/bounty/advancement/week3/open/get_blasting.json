@@ -1,0 +1,76 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "It's Dangerous To Go Alone!",
+		"description": "Find the hidden enchantment inside the pots of Trial Chambers\nReward: 150bp"
+	},
+	"parent": "bounty:week3/open/root",
+	"rewards": {
+		"function": "bounty:rewards/week3/get_blasting"
+	},
+	"criteria": {
+        "blasting 1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+				"player": {
+					"team": "bountyHunterW3"
+				},
+                "items": [
+                    {
+                        "items": "enchanted_book",
+                        "components": {
+                            "stored_enchantments": {
+                                "bounty:blasting": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "blasting 2": {
+            "trigger": "inventory_changed",
+            "conditions": {
+				"player": {
+					"team": "bountyHunterW3"
+				},
+                "items": [
+                    {
+                        "items": "enchanted_book",
+                        "components": {
+                            "stored_enchantments": {
+                                "bounty:blasting": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "blasting 3": {
+            "trigger": "inventory_changed",
+            "conditions": {
+				"player": {
+					"team": "bountyHunterW3"
+				},
+                "items": [
+                    {
+                        "items": "enchanted_book",
+                        "components": {
+                            "stored_enchantments": {
+                                "bounty:blasting": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+	},
+    "requirements": [
+        [
+            "blasting 1",
+            "blasting 2",
+            "blasting 3"
+        ]
+    ]
+}

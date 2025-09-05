@@ -4,7 +4,7 @@
 			"id": "minecraft:salmon"
 		},
 		"title": "Spear Fishing",
-		"description": "Kill a fish with a trident"
+		"description": "Kill a fish with a trident\nReward: 100bp"
 	},
 	"parent": "bounty:week3/open/root",
 	"rewards": {

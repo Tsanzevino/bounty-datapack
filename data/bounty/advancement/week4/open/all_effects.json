@@ -4,7 +4,7 @@
 			"id": "milk_bucket"
 		},
 		"title": "Rough Week?",
-		"description": "Be affected by every effect"
+		"description": "Be affected by every effect\nReward: 300bp"
 	},
 	"parent": "bounty:week4/open/root",
 	"rewards": {

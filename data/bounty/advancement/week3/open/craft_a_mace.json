@@ -4,7 +4,7 @@
 			"id": "minecraft:mace"
 		},
         "title": "Intense Gravity",
-        "description": "Craft a Mace"
+        "description": "Craft a Mace\nReward: 200bp"
     },
     "parent": "bounty:week3/open/root",
     "rewards": {

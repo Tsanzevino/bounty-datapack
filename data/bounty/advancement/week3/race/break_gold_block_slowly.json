@@ -4,7 +4,7 @@
 			"id": "minecraft:gold_block"
 		},
 		"title": "I do have all day",
-		"description": "Break a gold block in an Ocean Monument with mining fatigue under water."
+		"description": "Break a gold block in an Ocean Monument with mining fatigue under water.\nHighest Reward: 150bp"
 	},
 	"parent": "bounty:week3/race/root",
 	"rewards": {

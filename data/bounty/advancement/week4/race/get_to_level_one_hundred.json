@@ -4,7 +4,7 @@
 			"id": "minecraft:experience_bottle"
 		},
 		"title": "Please don't kill me",
-		"description": "Get to level 100"
+		"description": "Get to level 100\nHighest Reward: 100bp"
 	},
 	"parent": "bounty:week4/race/root",
 	"rewards": {

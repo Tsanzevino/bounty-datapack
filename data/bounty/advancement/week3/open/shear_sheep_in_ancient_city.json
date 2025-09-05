@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+			"id": "minecraft:black_wool"
+		},
+        "title": "Last Minute Preparation",
+        "description": "Shear a sheep in an Ancient City\nReward: 25bp"
+    },
+    "parent": "bounty:week3/open/root",
+    "rewards": {
+        "function": "bounty:rewards/week3/shear_sheep_in_ancient_city"
+    },
+    "criteria": {
+        "no wool":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW3",
+                    "location": {
+                        "structures": "ancient_city"
+                    }
+				},
+                "entity": {
+                    "type": "sheep"
+                },
+                "item": {
+                    "items": "shears"
+                }
+            }
+        }
+    }
+}

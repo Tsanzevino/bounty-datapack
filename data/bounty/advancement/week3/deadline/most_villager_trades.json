@@ -1,14 +1,14 @@
 {
     "display": {
         "title": "A Business Connoisseur",
-        "description": "Trade the most with villagers",
+        "description": "Trade the most with villagers\nHighest Reward: 500bp",
         "icon": {
             "id": "emerald_block"
         }
     },
     "parent": "bounty:week3/deadline/build_village",
     "rewards": {
-        "function": "bounty:rewards/week3/build_village"
+        "function": "bounty:rewards/week3/most_villager_trades"
     },
     "criteria": {
         "impossible": {

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Flex on the Haters",
+        "description": "Build the most impressive Trophy Room\nHighest Reward: 500bp",
+        "icon": {
+            "id": "dragon_head"
+        }
+    },
+    "parent": "bounty:week4/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week4/most_impressive_trophy_room"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW4"
+				}
+            }
+        }
+    }
+}

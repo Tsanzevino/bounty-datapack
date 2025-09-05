@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "No longer friendless",
-        "description": "Build the nicest village\nMust have at least 5 villagers",
+        "description": "Build the nicest village\nMust have at least 5 villagers\nHighest Reward: 500bp",
         "icon": {
             "id": "emerald_block"
         }

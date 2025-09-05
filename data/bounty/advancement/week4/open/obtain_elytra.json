@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:elytra"
+		},
+		"title": "Time to Fly!",
+		"description": "Obtain an elytra\nReward: 100bp"
+	},
+	"parent": "bounty:week4/open/root",
+	"rewards": {
+		"function": "bounty:rewards/week4/obtain_elytra"
+	},
+	"criteria": {
+		"Obtain shrieker": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW4"
+				},
+				"items": [
+					{
+						"items": "elytra"
+					}
+				]
+			}
+		}
+	}
+}

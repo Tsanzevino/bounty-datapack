@@ -4,7 +4,7 @@
 			"id": "minecraft:prismarine_shard"
 		},
 		"title": "Was that so hard?",
-		"description": "Shoot a guardian with an arrow"
+		"description": "Shoot a guardian with an arrow\nHighest Reward: 50bp"
 	},
 	"parent": "bounty:week3/race/root",
 	"rewards": {

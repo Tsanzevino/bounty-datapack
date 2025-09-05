@@ -1,0 +1,46 @@
+{
+	"description": "Quick Learning",
+	"exclusive_set": "minecraft:mending",
+	"supported_items": "#bounty:experience", 
+	"weight": 1,
+	"max_level": 3,
+	"min_cost": {
+		"base": 100,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 150,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"block_experience": [
+			{
+				"effect": {
+                    "type": "multiply",
+                    "factor": {
+                        "type": "linear",
+                        "base": 3.0,
+                        "per_level_above_first": 3.0
+
+                    }
+				}
+			}
+		],
+        "mob_experience": [
+            {
+				"effect": {
+                    "type": "multiply",
+                    "factor": {
+                        "type": "linear",
+                        "base": 3.0,
+                        "per_level_above_first": 3.0
+                    }
+				}
+			}
+        ]
+	}
+}

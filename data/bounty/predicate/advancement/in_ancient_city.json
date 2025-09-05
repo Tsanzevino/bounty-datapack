@@ -1,0 +1,10 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "team": "bountyHunterW3",
+        "location": {
+            "structures": "ancient_city"
+        }
+    }
+}

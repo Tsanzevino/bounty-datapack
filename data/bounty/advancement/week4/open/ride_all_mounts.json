@@ -4,7 +4,7 @@
 			"id": "minecraft:saddle"
 		},
 		"title": "Skilled Rider",
-		"description": "Ride all mounts"
+		"description": "Ride all mounts\nReward: 300bp"
 	},
 	"parent": "bounty:week4/open/root",
 	"rewards": {
@@ -28,16 +28,6 @@
 					"team": "bountyHunterW4",
 					"vehicle": {
 						"type": "minecraft:horse"
-					}
-				}
-			}
-		},
-        "skeleton horse": {
-			"trigger": "minecraft:started_riding",
-			"conditions": {
-				"player": {
-					"vehicle": {
-						"type": "minecraft:skeleton_horse"
 					}
 				}
 			}

@@ -4,7 +4,7 @@
 			"id": "bread"
 		},
 		"title": "Well Fed",
-		"description": "Eat every foodstuff"
+		"description": "Eat every foodstuff\nReward: 200bp"
 	},
 	"parent": "bounty:week3/open/root",
 	"rewards": {
@@ -122,6 +122,40 @@
 			"conditions": {
 				"item": {
 					"items": "minecraft:cooked_porkchop"
+				}
+			},
+			"trigger": "minecraft:consume_item"
+		},
+		"rabbit": {
+			"conditions": {
+				"item": {
+					"items": "minecraft:rabbit"
+				}
+			},
+			"trigger": "minecraft:consume_item"
+		},
+		"cake": {
+			"trigger": "default_block_use",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW3"
+				},
+				"location": [
+					{
+						"condition": "location_check",
+						"predicate": {
+							"block": {
+								"blocks": "cake"
+							}
+						}
+					}
+				]
+			}
+		},
+		"tropical fish": {
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish"
 				}
 			},
 			"trigger": "minecraft:consume_item"

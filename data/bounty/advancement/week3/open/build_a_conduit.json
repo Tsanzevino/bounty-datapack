@@ -4,7 +4,7 @@
 			"id": "minecraft:conduit"
 		},
 		"title": "Feel the Power",
-		"description": "Build a Conduit"
+		"description": "Build a Conduit\nReward: 100bp"
 	},
 	"parent": "bounty:week3/open/root",
 	"rewards": {

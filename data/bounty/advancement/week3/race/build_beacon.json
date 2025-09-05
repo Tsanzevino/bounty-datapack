@@ -4,7 +4,7 @@
 			"id": "minecraft:beacon"
 		},
 		"title": "TRUE POWER",
-		"description": "Build a fully charged beacon"
+		"description": "Build a fully charged beacon\nHighest Reward: 300bp"
 	},
 	"parent": "bounty:week3/race/root",
 	"rewards": {

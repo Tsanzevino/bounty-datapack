@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Serious Shucker",
+        "description": "Kill the most Shulkers\nHighest Reward: 500bp",
+        "icon": {
+            "id": "shulker_shell"
+        }
+    },
+    "parent": "bounty:week4/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week4/most_shulker_kills"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW4"
+				}
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@
 			"id": "minecraft:sculk_shrieker"
 		},
 		"title": "Quit that Racket!",
-		"description": "Obtain a sculk shrieker"
+		"description": "Obtain a sculk shrieker\nHighest Reward: 100bp"
 	},
 	"parent": "bounty:week3/race/root",
 	"rewards": {

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Up Up and Away!",
+        "description": "Build a cool flying machine!\nHighest Reward: 500bp",
+        "icon": {
+            "id": "slime_block"
+        }
+    },
+    "parent": "bounty:week4/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week4/build_a_flying_machine"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW4"
+				}
+            }
+        }
+    }
+}

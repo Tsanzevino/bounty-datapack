@@ -4,7 +4,7 @@
 			"id": "minecraft:music_disc_5"
 		},
 		"title": "DJ",
-		"description": "Collect all music discs"
+		"description": "Collect all music discs\nReward: 300bp"
 	},
 	"parent": "bounty:week4/open/root",
 	"rewards": {

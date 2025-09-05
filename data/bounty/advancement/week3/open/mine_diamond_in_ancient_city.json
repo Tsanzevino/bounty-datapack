@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:deepslate_diamond_ore"
+		},
+		"title": "Risk it for the Biscuit",
+		"description": "Mine for Diamonds in an Ancient City\nReward: 25bp"
+	},
+	"parent": "bounty:week3/open/root",
+	"rewards": {
+		"function": "bounty:rewards/week3/mine_diamond_in_ancient_city"
+	},
+	"criteria": {
+		"": {
+            "trigger": "impossible"
+        }
+	}
+}

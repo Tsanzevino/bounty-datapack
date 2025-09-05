@@ -4,7 +4,7 @@
 			"id": "minecraft:experience_bottle"
 		},
 		"title": "I can FINALLY enchant my armor!",
-		"description": "Get to level 60"
+		"description": "Get to level 60\nHighest Reward: 50bp"
 	},
 	"parent": "bounty:week3/race/root",
 	"rewards": {

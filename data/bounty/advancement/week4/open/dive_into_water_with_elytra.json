@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"id": "elytra"
+		},
+		"title": "Dive Bomb!",
+		"description": "Dive into water at high speeds with Elytra\nReward: 150bp"
+	},
+	"parent": "bounty:week4/open/obtain_elytra",
+	"rewards": {
+		"function": "bounty:rewards/week4/dive_into_water_with_elytra"
+	},
+	"criteria": {
+		"harvest carrot": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW4",
+					"movement": {
+						"vertical_speed": {
+							"min": 50
+						}
+					},
+                    "equipment": {
+                        "chest": {
+                            "items": [
+                                "elytra"
+                            ]
+                        }
+                    },
+					"location": {
+						"fluid": {
+							"fluids": [
+								"water",
+								"flowing_water"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

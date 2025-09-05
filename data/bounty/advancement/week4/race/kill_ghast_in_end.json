@@ -4,7 +4,7 @@
 			"id": "minecraft:ghast_tear"
 		},
 		"title": "A Sad End",
-		"description": "Kill a Ghast in the end"
+		"description": "Kill a Ghast in the end\nHighest Reward: 200bp"
 	},
 	"parent": "bounty:week4/race/root",
 	"rewards": {

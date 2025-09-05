@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Unpredictable Snack",
+        "description": "Farm the most Chorus Fruit\nHighest Reward: 500bp",
+        "icon": {
+            "id": "chorus_flower"
+        }
+    },
+    "parent": "bounty:week4/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week4/most_chorus_fruit"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW4"
+				}
+            }
+        }
+    }
+}

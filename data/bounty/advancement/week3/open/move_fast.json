@@ -4,7 +4,7 @@
 			"id": "blaze_powder"
 		},
 		"title": "Gotta go fast",
-		"description": "Move 50m/s"
+		"description": "Move 50m/s\nReward: 50bp"
 	},
 	"parent": "bounty:week3/open/root",
 	"rewards": {

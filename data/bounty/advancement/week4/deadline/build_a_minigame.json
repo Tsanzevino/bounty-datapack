@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Next it's your turn!",
-        "description": "Build your own minigame!",
+        "description": "Build your own minigame!\nHighest Reward: 500bp",
         "icon": {
             "id": "ominous_trial_key"
         }

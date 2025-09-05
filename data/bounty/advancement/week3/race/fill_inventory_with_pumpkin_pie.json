@@ -1,0 +1,169 @@
+{
+	"display": {
+		"icon": {
+			"id": "pumpkin_pie"
+		},
+		"title": "Cornucopia",
+		"description": "Fill your inventory with Pumpkin Pie\nHighest Reward: 500bp"
+	},
+	"parent": "bounty:week3/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week3/fill_inventory_with_pumpkin_pie"
+	},
+	"criteria": {
+		"full_of_carrots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW3",
+					"slots": {
+						"hotbar.0": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "hotbar.1": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "hotbar.2": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "hotbar.3": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "hotbar.4": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "hotbar.5": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "hotbar.6": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "hotbar.7": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "hotbar.8": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.0": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.1": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.2": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.3": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.4": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.5": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.6": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.7": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.8": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.9": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.10": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.11": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.12": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.13": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.14": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.15": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.16": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.17": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.18": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.19": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.20": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.21": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.22": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.23": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.24": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.25": {
+							"items": "pumpkin_pie",
+							"count": 64
+						},
+                        "inventory.26": {
+							"items": "pumpkin_pie",
+							"count": 64
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -4,9 +4,9 @@
 			"id": "minecraft:goat_horn"
 		},
         "title": "MARCO..!",
-        "description": "Use a goat horn in an Ancient City"
+        "description": "Use a goat horn in an Ancient City\nHighest Reward: 150bp"
     },
-    "parent": "bounty:week3/open/root",
+    "parent": "bounty:week3/race/root",
     "rewards": {
         "function": "bounty:rewards/week3/use_goat_horn_in_ancient_city"
     },

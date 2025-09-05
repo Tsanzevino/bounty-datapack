@@ -4,7 +4,7 @@
 			"id": "minecraft:carrot"
 		},
 		"title": "Introduce World Satiety",
-		"description": "Fill your inventory with shulkers full of carrots"
+		"description": "Fill your inventory with shulkers full of carrots\nHighest Reward: 500bp"
 	},
 	"parent": "bounty:week4/race/root",
     "rewards": {

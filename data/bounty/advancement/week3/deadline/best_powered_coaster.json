@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Guilded Go-Around",
+        "description": "Build the coolest powered rail roller coaster\nHighest Reward: 500bp",
+        "icon": {
+            "id": "powered_rail"
+        }
+    },
+    "parent": "bounty:week3/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week3/best_powered_coaster"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW3"
+				}
+            }
+        }
+    }
+}

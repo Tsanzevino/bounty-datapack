@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chorus_fruit"
+		},
+		"title": "Where am I??",
+		"description": "Eat a Chorus Fruit\nReward: 50bp"
+	},
+	"parent": "bounty:week4/open/root",
+	"rewards": {
+		"function": "bounty:rewards/week4/eat_chorus_fruit"
+	},
+	"criteria": {
+		"Obtain shrieker": {
+			"trigger": "consume_item",
+			"conditions": {
+				"player": {
+					"team": "bountyHunterW4"
+				},
+                "item": {
+                    "items": [
+                        "chorus_fruit"
+                    ]
+                }
+			}
+		}
+	}
+}

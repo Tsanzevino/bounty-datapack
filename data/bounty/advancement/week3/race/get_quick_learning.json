@@ -1,0 +1,76 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "A Studious Endeavor",
+		"description": "Find the hidden enchantment inside the Ice Box of an Ancient City\nHighest Reward: 200bp"
+	},
+	"parent": "bounty:week3/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week3/get_quick_learning"
+	},
+	"criteria": {
+        "learning 1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+				"player": {
+					"team": "bountyHunterW3"
+				},
+                "items": [
+                    {
+                        "items": "enchanted_book",
+                        "components": {
+                            "stored_enchantments": {
+                                "bounty:quick_learning": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "learning 2": {
+            "trigger": "inventory_changed",
+            "conditions": {
+				"player": {
+					"team": "bountyHunterW3"
+				},
+                "items": [
+                    {
+                        "items": "enchanted_book",
+                        "components": {
+                            "stored_enchantments": {
+                                "bounty:quick_learning": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "learning 3": {
+            "trigger": "inventory_changed",
+            "conditions": {
+				"player": {
+					"team": "bountyHunterW3"
+				},
+                "items": [
+                    {
+                        "items": "enchanted_book",
+                        "components": {
+                            "stored_enchantments": {
+                                "bounty:quick_learning": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+	},
+    "requirements": [
+        [
+            "learning 1",
+            "learning 2",
+            "learning 3"
+        ]
+    ]
+}

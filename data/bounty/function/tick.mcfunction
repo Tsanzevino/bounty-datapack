@@ -9,3 +9,5 @@ execute as @a[advancements={bounty:week2/race/abduct_a_cow=false}] store result 
 # --- Checks for Week 3 ---
 # Mine gold slowly
 execute as @a[team=bountyHunterW3,scores={goldBlockMined=1..}] run function bounty:advancement/break_gold_block_slowly
+# Mine Diamond in Ancient City
+execute as @a[team=bountyHunterW3,scores={diamondOreMined=1..}] run function bounty:advancement/mine_diamond_in_ancient_city

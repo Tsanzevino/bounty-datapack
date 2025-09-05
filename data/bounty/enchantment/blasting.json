@@ -1,0 +1,54 @@
+{
+	"description": "Blasting",
+	"exclusive_set": "minecraft:flame",
+	"supported_items": "bow", 
+	"weight": 1,
+	"max_level": 3,
+	"min_cost": {
+		"base": 100,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 150,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+        "post_attack": [
+            {
+                "effect": {
+                    "type": "explode",
+                    "damage_type": "explosion",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "small_particle": {
+                        "type": "explosion"
+                    },
+                    "large_particle": {
+                        "type": "explosion"
+                    },
+                    "sound": "entity.generic.explode",
+                    "radius": {
+                        "type": "linear",
+                        "base": 1,
+                        "per_level_above_first": 0.5
+                    }
+                },
+                "affected": "damaging_entity",
+                "enchanted": "attacker",
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "direct_attacker",
+                        "predicate": {
+                            "type": "#minecraft:arrows"
+                        }
+                    }
+                ]
+            }
+        ]
+	}
+}

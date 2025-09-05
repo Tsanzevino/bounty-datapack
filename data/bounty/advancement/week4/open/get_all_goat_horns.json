@@ -7,7 +7,7 @@
 			}
 		},
 		"title": "Mountain Musician",
-		"description": "Collect all goat horns"
+		"description": "Collect all goat horns\nReward: 300bp"
 	},
 	"parent": "bounty:week4/open/root",
 	"rewards": {

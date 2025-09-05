@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:end_crystal"
+		},
+		"title": "Long Live the Queen",
+		"description": "Revive the Ender Dragon\nHighest Reward: 150bp"
+	},
+	"parent": "bounty:week4/race/root",
+	"rewards": {
+		"function": "bounty:rewards/week4/revive_dragon"
+	},
+	"criteria": {
+		"summoned_dragon": {
+			"conditions": {
+                "player": {
+                    "team": "bountyHunterW4"
+                },
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:ender_dragon"
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:summoned_entity"
+		}
+	}
+}

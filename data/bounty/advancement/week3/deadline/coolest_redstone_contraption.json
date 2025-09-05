@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "This IS a Mumbo Jumbo tutorial!",
+        "description": "Build the coolest redstone contraption but again\nHighest Reward: 500bp",
+        "icon": {
+            "id": "redstone"
+        }
+    },
+    "parent": "bounty:week3/deadline/root",
+    "rewards": {
+        "function": "bounty:rewards/week3/coolest_redstone_contraption"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible",
+            "conditions": {
+                "player": {
+					"team": "bountyHunterW3"
+				}
+            }
+        }
+    }
+}
